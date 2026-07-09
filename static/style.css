@@ -109,8 +109,7 @@ header.app-header h1 span {
 .flash-cell:hover { border-color: var(--accent); }
 .flash-cell:active { transform: scale(0.97); }
 
-.flash-cell.quiz-hidden .german-word,
-.flash-cell.quiz-hidden .english-word {
+.flash-cell.quiz-hidden .german-word {
   visibility: hidden;
 }
 
