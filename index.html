@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deutsch Flashcards</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="wrap">
+  <header class="app-header">
+    <h1>Deutsch<span>Flashcards</span></h1>
+  </header>
+
+  <div id="home">
+    <div id="level-map"></div>
+  </div>
+
+  <div id="deck" class="hidden">
+    <div class="deck-top">
+      <button id="back-btn">&larr; categories</button>
+      <span id="deck-title"></span>
+    </div>
+    <div id="cards"></div>
+  </div>
+</div>
+
+<script src="{{ url_for('static', filename='words.js') }}"></script>
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
