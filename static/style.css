@@ -71,11 +71,16 @@ header.app-header h1 span {
   margin-bottom: 20px;
 }
 
-.floating-btn {
+#floating-controls {
   position: fixed;
   top: 16px;
   right: 16px;
   z-index: 100;
+  display: flex;
+  gap: 8px;
+}
+
+.floating-btn {
   background: var(--accent);
   color: #1a1a1a;
   border: none;
@@ -88,6 +93,18 @@ header.app-header h1 span {
 }
 
 .floating-btn:hover { opacity: 0.9; }
+
+.floating-btn.secondary {
+  background: var(--surface-2);
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+}
+
+.floating-btn.secondary.active {
+  background: var(--accent);
+  color: #1a1a1a;
+  border-color: var(--accent);
+}
 
 #grid {
   display: grid;

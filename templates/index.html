@@ -7,7 +7,10 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-<button id="reset-btn" class="floating-btn hidden">&#8635; hide all</button>
+<div id="floating-controls" class="hidden">
+  <button id="autohide-toggle" class="floating-btn secondary">auto-hide: off</button>
+  <button id="reset-btn" class="floating-btn">&#8635; hide all</button>
+</div>
 
 <div class="wrap">
   <header class="app-header">

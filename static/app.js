@@ -6,6 +6,7 @@ let deck = [];
 let page = 0;
 let germanVoice = null;
 let quizMode = false;
+let autoHide = false;
 const revealed = new Set();
 
 const categoryBarEl = document.getElementById("category-bar");
@@ -14,6 +15,8 @@ const progressEl = document.getElementById("progress-label");
 const navRowEl = document.querySelector(".nav-row");
 const quizToggleEl = document.getElementById("quiz-toggle");
 const resetBtnEl = document.getElementById("reset-btn");
+const floatingControlsEl = document.getElementById("floating-controls");
+const autoHideToggleEl = document.getElementById("autohide-toggle");
 
 function pickGermanVoice() {
   const voices = window.speechSynthesis ? window.speechSynthesis.getVoices() : [];
@@ -97,8 +100,10 @@ function renderGrid() {
     `;
     cell.onclick = () => {
       if (quizMode && !revealed.has(key)) {
-        revealed.clear();
-        gridEl.querySelectorAll(".flash-cell").forEach(c => c.classList.add("quiz-hidden"));
+        if (autoHide) {
+          revealed.clear();
+          gridEl.querySelectorAll(".flash-cell").forEach(c => c.classList.add("quiz-hidden"));
+        }
         revealed.add(key);
         cell.classList.remove("quiz-hidden");
       }
@@ -133,12 +138,18 @@ function speak(text, cell) {
 quizToggleEl.onclick = () => {
   quizMode = !quizMode;
   quizToggleEl.classList.toggle("active", quizMode);
-  resetBtnEl.classList.toggle("hidden", !quizMode);
+  floatingControlsEl.classList.toggle("hidden", !quizMode);
   renderGrid();
 };
 
 resetBtnEl.onclick = () => {
   renderGrid();
+};
+
+autoHideToggleEl.onclick = () => {
+  autoHide = !autoHide;
+  autoHideToggleEl.textContent = "auto-hide: " + (autoHide ? "on" : "off");
+  autoHideToggleEl.classList.toggle("active", autoHide);
 };
 
 document.getElementById("prev-btn").onclick = () => {
