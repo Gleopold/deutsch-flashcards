@@ -412,7 +412,7 @@ const WORDS = [
   { en: "steering wheel", de: "das Lenkrad", cat: "car", lvl: 13, img: "🕹️", type: "emoji" },
   { en: "brake", de: "die Bremse", cat: "car", lvl: 13, img: "🛑", type: "emoji" },
   { en: "accelerator / gas pedal", de: "das Gaspedal", cat: "car", lvl: 13, img: "🚀", type: "emoji" },
-  { en: "tire", de: "der Reifen", cat: "car", lvl: 13, img: "🍩", type: "emoji" },
+  { en: "tire", de: "der Reifen", cat: "car", lvl: 13, img: "🚗⚫", type: "emoji" },
   { en: "engine", de: "der Motor", cat: "car", lvl: 13, img: "⚙️", type: "emoji" },
   { en: "gas station", de: "die Tankstelle", cat: "car", lvl: 13, img: "⛽", type: "emoji" },
   { en: "seatbelt", de: "der Sicherheitsgurt", cat: "car", lvl: 13, img: "🦺", type: "emoji" },
