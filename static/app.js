@@ -97,6 +97,8 @@ function renderGrid() {
     `;
     cell.onclick = () => {
       if (quizMode && !revealed.has(key)) {
+        revealed.clear();
+        gridEl.querySelectorAll(".flash-cell").forEach(c => c.classList.add("quiz-hidden"));
         revealed.add(key);
         cell.classList.remove("quiz-hidden");
       }
