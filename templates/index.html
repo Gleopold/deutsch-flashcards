@@ -7,12 +7,18 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
+<button id="reset-btn" class="floating-btn hidden">&#8635; hide all</button>
+
 <div class="wrap">
   <header class="app-header">
     <h1>Deutsch<span>Flashcards</span></h1>
   </header>
 
   <div id="category-bar"></div>
+
+  <div class="mode-row">
+    <button id="quiz-toggle" class="cat-btn">&#129504; quiz mode</button>
+  </div>
 
   <div id="deck">
     <div class="hint">click a card to hear it</div>

@@ -1,5 +1,7 @@
 * { box-sizing: border-box; }
 
+.hidden { display: none !important; }
+
 :root {
   --bg: #10151a;
   --surface: #1a2129;
@@ -65,6 +67,28 @@ header.app-header h1 span {
   font-weight: 600;
 }
 
+.mode-row {
+  margin-bottom: 20px;
+}
+
+.floating-btn {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 100;
+  background: var(--accent);
+  color: #1a1a1a;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+
+.floating-btn:hover { opacity: 0.9; }
+
 #grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -84,6 +108,16 @@ header.app-header h1 span {
 
 .flash-cell:hover { border-color: var(--accent); }
 .flash-cell:active { transform: scale(0.97); }
+
+.flash-cell.quiz-hidden .german-word,
+.flash-cell.quiz-hidden .english-word {
+  visibility: hidden;
+}
+
+.flash-cell.speaking {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent);
+}
 
 .emoji { font-size: 96px; line-height: 1; }
 .numeral { font-size: 88px; font-weight: 700; color: var(--accent); }
