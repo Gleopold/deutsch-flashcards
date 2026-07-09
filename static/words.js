@@ -21,7 +21,8 @@ const LEVELS = [
   { id: 20, name: "Time & daily life", category: "time", options: 5 },
   { id: 21, name: "Weather", category: "weather", options: 5 },
   { id: 22, name: "Small words", category: "smallwords", options: 5 },
-  { id: 23, name: "Mixed review", category: "mixed", options: 6 }
+  { id: 23, name: "Daily life", category: "daily", options: 5 },
+  { id: 24, name: "Mixed review", category: "mixed", options: 6 }
 ];
 
 const WORDS = [
@@ -590,5 +591,35 @@ const WORDS = [
   { en: "here (take it)", de: "bitte schön", cat: "smallwords", lvl: 22, img: "🤲", type: "emoji" },
   { en: "why", de: "warum", cat: "smallwords", lvl: 22, img: "🤔", type: "emoji" },
   { en: "how", de: "wie", cat: "smallwords", lvl: 22, img: "🛠️", type: "emoji" },
-  { en: "when", de: "wann", cat: "smallwords", lvl: 22, img: "📅", type: "emoji" }
+  { en: "when", de: "wann", cat: "smallwords", lvl: 22, img: "📅", type: "emoji" },
+
+  { en: "break (at work)", de: "die Pause", cat: "daily", lvl: 23, img: "☕", type: "emoji" },
+  { en: "end of the workday", de: "der Feierabend", cat: "daily", lvl: 23, img: "🕔🎉", type: "emoji" },
+  { en: "boss", de: "der Chef", cat: "daily", lvl: 23, img: "👔", type: "emoji" },
+  { en: "colleague", de: "der Kollege", cat: "daily", lvl: 23, img: "👥", type: "emoji" },
+  { en: "office", de: "das Büro", cat: "daily", lvl: 23, img: "🏢💼", type: "emoji" },
+  { en: "salary", de: "das Gehalt", cat: "daily", lvl: 23, img: "💶📅", type: "emoji" },
+  { en: "trash / garbage", de: "der Müll", cat: "daily", lvl: 23, img: "🗑️", type: "emoji" },
+  { en: "laundry", de: "die Wäsche", cat: "daily", lvl: 23, img: "🧺", type: "emoji" },
+  { en: "to go shopping", de: "einkaufen", cat: "daily", lvl: 23, img: "🛒", type: "emoji" },
+  { en: "bill / invoice", de: "die Rechnung", cat: "daily", lvl: 23, img: "🧾", type: "emoji" },
+  { en: "rent", de: "die Miete", cat: "daily", lvl: 23, img: "🏠💶", type: "emoji" },
+  { en: "neighbor", de: "der Nachbar", cat: "daily", lvl: 23, img: "🏘️", type: "emoji" },
+  { en: "cash", de: "das Bargeld", cat: "daily", lvl: 23, img: "💵", type: "emoji" },
+  { en: "ID card", de: "der Ausweis", cat: "daily", lvl: 23, img: "🆔", type: "emoji" },
+  { en: "form (paperwork)", de: "das Formular", cat: "daily", lvl: 23, img: "📝", type: "emoji" },
+  { en: "to sign", de: "unterschreiben", cat: "daily", lvl: 23, img: "✍️", type: "emoji" },
+  { en: "to register (officially)", de: "sich anmelden", cat: "daily", lvl: 23, img: "🏛️✍️", type: "emoji" },
+  { en: "contract", de: "der Vertrag", cat: "daily", lvl: 23, img: "📜", type: "emoji" },
+  { en: "to cancel (a contract)", de: "kündigen", cat: "daily", lvl: 23, img: "📄✂️", type: "emoji" },
+  { en: "to pick up (a package)", de: "abholen", cat: "daily", lvl: 23, img: "🚶📦", type: "emoji" },
+  { en: "delivery", de: "die Lieferung", cat: "daily", lvl: 23, img: "🚚📦", type: "emoji" },
+  { en: "broken", de: "kaputt", cat: "daily", lvl: 23, img: "📱💥", type: "emoji" },
+  { en: "on time / punctual", de: "pünktlich", cat: "daily", lvl: 23, img: "⏰✅", type: "emoji" },
+  { en: "delay", de: "die Verspätung", cat: "daily", lvl: 23, img: "🚆⏰", type: "emoji" },
+  { en: "occupied / taken", de: "besetzt", cat: "daily", lvl: 23, img: "🪑🚫", type: "emoji" },
+  { en: "free / available", de: "frei", cat: "daily", lvl: 23, img: "🪑✅", type: "emoji" },
+  { en: "entrance", de: "der Eingang", cat: "daily", lvl: 23, img: "➡️🚪", type: "emoji" },
+  { en: "exit", de: "der Ausgang", cat: "daily", lvl: 23, img: "🏃🚪", type: "emoji" },
+  { en: "heating", de: "die Heizung", cat: "daily", lvl: 23, img: "♨️", type: "emoji" }
 ];
