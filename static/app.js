@@ -64,14 +64,23 @@ function selectCategory(cat) {
   renderGrid();
 }
 
+function graphemeCount(str) {
+  if (typeof Intl !== "undefined" && Intl.Segmenter) {
+    return [...new Intl.Segmenter("en", { granularity: "grapheme" }).segment(str)].length;
+  }
+  return [...str].length;
+}
+
 function renderMedia(w) {
   if (w.type === "color") {
     return `<div class="swatch" style="background:${w.img}"></div>`;
   }
   if (w.type === "number") {
-    return `<div class="numeral">${w.img}</div>`;
+    const cls = w.img.length > 3 ? "numeral numeral-sm" : "numeral";
+    return `<div class="${cls}">${w.img}</div>`;
   }
-  return `<div class="emoji">${w.img}</div>`;
+  const cls = graphemeCount(w.img) > 1 ? "emoji emoji-multi" : "emoji";
+  return `<div class="${cls}">${w.img}</div>`;
 }
 
 function pageSize() {
