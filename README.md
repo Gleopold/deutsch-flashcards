@@ -29,3 +29,5 @@ Then open http://localhost:5000
 - `static/words.js` — the vocabulary data (edit this to add more words)
 - `static/app.js` — flashcard logic (category filtering, navigation, speech)
 - `static/style.css` — styling
+- `mobile/` — Flutter app (Android/iOS) with the same cards and
+  on-device German TTS; see `mobile/README.md` for build steps
