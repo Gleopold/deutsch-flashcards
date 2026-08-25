@@ -140,6 +140,12 @@
   },
   {
    "id": 24,
+   "name": "Renting a home",
+   "category": "renting",
+   "options": 5
+  },
+  {
+   "id": 25,
    "name": "Mixed review",
    "category": "mixed",
    "options": 6
@@ -151,144 +157,162 @@
    "de": "ich",
    "cat": "pronouns",
    "lvl": 1,
-   "img": "🙋",
-   "type": "emoji"
+   "img": "img/words/i.jpg",
+   "type": "illustration",
+   "fallback": "🙋"
   },
   {
    "en": "you (informal)",
    "de": "du",
    "cat": "pronouns",
    "lvl": 1,
-   "img": "👉",
-   "type": "emoji"
+   "img": "img/words/you_informal.jpg",
+   "type": "illustration",
+   "fallback": "👉"
   },
   {
    "en": "he",
    "de": "er",
    "cat": "pronouns",
    "lvl": 1,
-   "img": "👨",
-   "type": "emoji"
+   "img": "img/words/he.jpg",
+   "type": "illustration",
+   "fallback": "👨"
   },
   {
    "en": "she",
    "de": "sie",
    "cat": "pronouns",
    "lvl": 1,
-   "img": "👩",
-   "type": "emoji"
+   "img": "img/words/she.jpg",
+   "type": "illustration",
+   "fallback": "👩"
   },
   {
    "en": "it",
    "de": "es",
    "cat": "pronouns",
    "lvl": 1,
-   "img": "📦",
-   "type": "emoji"
+   "img": "img/words/it.jpg",
+   "type": "illustration",
+   "fallback": "📦"
   },
   {
    "en": "we",
    "de": "wir",
    "cat": "pronouns",
    "lvl": 1,
-   "img": "👥",
-   "type": "emoji"
+   "img": "img/words/we.jpg",
+   "type": "illustration",
+   "fallback": "👥"
   },
   {
    "en": "you (plural)",
    "de": "ihr",
    "cat": "pronouns",
    "lvl": 1,
-   "img": "🧑‍🤝‍🧑",
-   "type": "emoji"
+   "img": "img/words/you_plural.jpg",
+   "type": "illustration",
+   "fallback": "🧑‍🤝‍🧑"
   },
   {
    "en": "they",
    "de": "sie",
    "cat": "pronouns",
    "lvl": 1,
-   "img": "👨‍👩‍👧‍👦",
-   "type": "emoji"
+   "img": "img/words/they.jpg",
+   "type": "illustration",
+   "fallback": "👨‍👩‍👧‍👦"
   },
   {
    "en": "you (formal)",
    "de": "Sie",
    "cat": "pronouns",
    "lvl": 1,
-   "img": "🎩",
-   "type": "emoji"
+   "img": "img/words/you_formal.jpg",
+   "type": "illustration",
+   "fallback": "🎩"
   },
   {
    "en": "my",
    "de": "mein",
    "cat": "pronouns",
    "lvl": 1,
-   "img": "🙋",
-   "type": "emoji"
+   "img": "img/words/my.jpg",
+   "type": "illustration",
+   "fallback": "🙋"
   },
   {
    "en": "your",
    "de": "dein",
    "cat": "pronouns",
    "lvl": 1,
-   "img": "👉",
-   "type": "emoji"
+   "img": "img/words/your.jpg",
+   "type": "illustration",
+   "fallback": "👉"
   },
   {
    "en": "his",
    "de": "sein",
    "cat": "pronouns",
    "lvl": 1,
-   "img": "👨",
-   "type": "emoji"
+   "img": "img/words/his.jpg",
+   "type": "illustration",
+   "fallback": "👨"
   },
   {
    "en": "her",
    "de": "ihr",
    "cat": "pronouns",
    "lvl": 1,
-   "img": "👩",
-   "type": "emoji"
+   "img": "img/words/her.jpg",
+   "type": "illustration",
+   "fallback": "👩"
   },
   {
    "en": "our",
    "de": "unser",
    "cat": "pronouns",
    "lvl": 1,
-   "img": "👥",
-   "type": "emoji"
+   "img": "img/words/our.jpg",
+   "type": "illustration",
+   "fallback": "👥"
   },
   {
    "en": "this",
    "de": "dieser",
    "cat": "pronouns",
    "lvl": 1,
-   "img": "👇",
-   "type": "emoji"
+   "img": "img/words/this.jpg",
+   "type": "illustration",
+   "fallback": "👇"
   },
   {
    "en": "who",
    "de": "wer",
    "cat": "pronouns",
    "lvl": 1,
-   "img": "🕵️",
-   "type": "emoji"
+   "img": "img/words/who.jpg",
+   "type": "illustration",
+   "fallback": "🕵️"
   },
   {
    "en": "what",
    "de": "was",
    "cat": "pronouns",
    "lvl": 1,
-   "img": "❓",
-   "type": "emoji"
+   "img": "img/words/what.jpg",
+   "type": "illustration",
+   "fallback": "❓"
   },
   {
    "en": "where",
    "de": "wo",
    "cat": "pronouns",
    "lvl": 1,
-   "img": "📍",
-   "type": "emoji"
+   "img": "img/words/where.jpg",
+   "type": "illustration",
+   "fallback": "📍"
   },
   {
    "en": "zero",
@@ -623,128 +647,144 @@
    "de": "die Mutter",
    "cat": "family",
    "lvl": 4,
-   "img": "👩",
-   "type": "emoji"
+   "img": "img/words/mother.jpg",
+   "type": "illustration",
+   "fallback": "👩"
   },
   {
    "en": "father",
    "de": "der Vater",
    "cat": "family",
    "lvl": 4,
-   "img": "👨",
-   "type": "emoji"
+   "img": "img/words/father.jpg",
+   "type": "illustration",
+   "fallback": "👨"
   },
   {
    "en": "sister",
    "de": "die Schwester",
    "cat": "family",
    "lvl": 4,
-   "img": "👭",
-   "type": "emoji"
+   "img": "img/words/sister.jpg",
+   "type": "illustration",
+   "fallback": "👭"
   },
   {
    "en": "brother",
    "de": "der Bruder",
    "cat": "family",
    "lvl": 4,
-   "img": "👬",
-   "type": "emoji"
+   "img": "img/words/brother.jpg",
+   "type": "illustration",
+   "fallback": "👬"
   },
   {
    "en": "grandmother",
    "de": "die Großmutter",
    "cat": "family",
    "lvl": 4,
-   "img": "👵",
-   "type": "emoji"
+   "img": "img/words/grandmother.jpg",
+   "type": "illustration",
+   "fallback": "👵"
   },
   {
    "en": "grandfather",
    "de": "der Großvater",
    "cat": "family",
    "lvl": 4,
-   "img": "👴",
-   "type": "emoji"
+   "img": "img/words/grandfather.jpg",
+   "type": "illustration",
+   "fallback": "👴"
   },
   {
    "en": "son",
    "de": "der Sohn",
    "cat": "family",
    "lvl": 4,
-   "img": "👦",
-   "type": "emoji"
+   "img": "img/words/son.jpg",
+   "type": "illustration",
+   "fallback": "👦"
   },
   {
    "en": "daughter",
    "de": "die Tochter",
    "cat": "family",
    "lvl": 4,
-   "img": "👧",
-   "type": "emoji"
+   "img": "img/words/daughter.jpg",
+   "type": "illustration",
+   "fallback": "👧"
   },
   {
    "en": "aunt",
    "de": "die Tante",
    "cat": "family",
    "lvl": 4,
-   "img": "👩‍🦰",
-   "type": "emoji"
+   "img": "img/words/aunt.jpg",
+   "type": "illustration",
+   "fallback": "👩‍🦰"
   },
   {
    "en": "uncle",
    "de": "der Onkel",
    "cat": "family",
    "lvl": 4,
-   "img": "👨‍🦰",
-   "type": "emoji"
+   "img": "img/words/uncle.jpg",
+   "type": "illustration",
+   "fallback": "👨‍🦰"
   },
   {
    "en": "child",
    "de": "das Kind",
    "cat": "family",
    "lvl": 4,
-   "img": "🧒",
-   "type": "emoji"
+   "img": "img/words/child.jpg",
+   "type": "illustration",
+   "fallback": "🧒"
   },
   {
    "en": "family",
    "de": "die Familie",
    "cat": "family",
    "lvl": 4,
-   "img": "👨‍👩‍👧‍👦",
-   "type": "emoji"
+   "img": "img/words/family.jpg",
+   "type": "illustration",
+   "fallback": "👨‍👩‍👧‍👦"
   },
   {
    "en": "husband",
    "de": "der Ehemann",
    "cat": "family",
    "lvl": 4,
-   "img": "🤵",
-   "type": "emoji"
+   "img": "img/words/husband.jpg",
+   "type": "illustration",
+   "fallback": "🤵"
   },
   {
    "en": "wife",
    "de": "die Ehefrau",
    "cat": "family",
    "lvl": 4,
-   "img": "👰",
-   "type": "emoji"
+   "img": "img/words/wife.jpg",
+   "type": "illustration",
+   "fallback": "👰"
   },
   {
    "en": "friend",
    "de": "der Freund",
    "cat": "family",
    "lvl": 4,
-   "img": "🧑‍🤝‍🧑",
-   "type": "emoji"
+   "img": "img/words/friend.jpg",
+   "type": "illustration",
+   "fallback": "🧑‍🤝‍🧑"
   },
   {
    "en": "baby",
    "de": "das Baby",
    "cat": "family",
    "lvl": 4,
-   "img": "👶",
-   "type": "emoji"
+   "img": "img/words/baby.jpg",
+   "type": "illustration",
+   "fallback": "👶"
   },
   {
    "en": "Monday",
@@ -807,1472 +847,1656 @@
    "de": "Januar",
    "cat": "calendar",
    "lvl": 5,
-   "img": "❄️",
-   "type": "emoji"
+   "img": "img/words/january.jpg",
+   "type": "illustration",
+   "fallback": "❄️"
   },
   {
    "en": "February",
    "de": "Februar",
    "cat": "calendar",
    "lvl": 5,
-   "img": "💘",
-   "type": "emoji"
+   "img": "img/words/february.jpg",
+   "type": "illustration",
+   "fallback": "💘"
   },
   {
    "en": "March",
    "de": "März",
    "cat": "calendar",
    "lvl": 5,
-   "img": "🍀",
-   "type": "emoji"
+   "img": "img/words/march.jpg",
+   "type": "illustration",
+   "fallback": "🍀"
   },
   {
    "en": "April",
    "de": "April",
    "cat": "calendar",
    "lvl": 5,
-   "img": "🌧️",
-   "type": "emoji"
+   "img": "img/words/april.jpg",
+   "type": "illustration",
+   "fallback": "🌧️"
   },
   {
    "en": "May",
    "de": "Mai",
    "cat": "calendar",
    "lvl": 5,
-   "img": "🌸",
-   "type": "emoji"
+   "img": "img/words/may.jpg",
+   "type": "illustration",
+   "fallback": "🌸"
   },
   {
    "en": "June",
    "de": "Juni",
    "cat": "calendar",
    "lvl": 5,
-   "img": "☀️",
-   "type": "emoji"
+   "img": "img/words/june.jpg",
+   "type": "illustration",
+   "fallback": "☀️"
   },
   {
    "en": "July",
    "de": "Juli",
    "cat": "calendar",
    "lvl": 5,
-   "img": "🎆",
-   "type": "emoji"
+   "img": "img/words/july.jpg",
+   "type": "illustration",
+   "fallback": "🎆"
   },
   {
    "en": "August",
    "de": "August",
    "cat": "calendar",
    "lvl": 5,
-   "img": "🏖️",
-   "type": "emoji"
+   "img": "img/words/august.jpg",
+   "type": "illustration",
+   "fallback": "🏖️"
   },
   {
    "en": "September",
    "de": "September",
    "cat": "calendar",
    "lvl": 5,
-   "img": "🍂",
-   "type": "emoji"
+   "img": "img/words/september.jpg",
+   "type": "illustration",
+   "fallback": "🍂"
   },
   {
    "en": "October",
    "de": "Oktober",
    "cat": "calendar",
    "lvl": 5,
-   "img": "🎃",
-   "type": "emoji"
+   "img": "img/words/october.jpg",
+   "type": "illustration",
+   "fallback": "🎃"
   },
   {
    "en": "November",
    "de": "November",
    "cat": "calendar",
    "lvl": 5,
-   "img": "🦃",
-   "type": "emoji"
+   "img": "img/words/november.jpg",
+   "type": "illustration",
+   "fallback": "🦃"
   },
   {
    "en": "December",
    "de": "Dezember",
    "cat": "calendar",
    "lvl": 5,
-   "img": "🎄",
-   "type": "emoji"
+   "img": "img/words/december.jpg",
+   "type": "illustration",
+   "fallback": "🎄"
   },
   {
    "en": "today",
    "de": "heute",
    "cat": "calendar",
    "lvl": 5,
-   "img": "📍",
-   "type": "emoji"
+   "img": "img/words/today.jpg",
+   "type": "illustration",
+   "fallback": "📍"
   },
   {
    "en": "tomorrow",
    "de": "morgen",
    "cat": "calendar",
    "lvl": 5,
-   "img": "➡️",
-   "type": "emoji"
+   "img": "img/words/tomorrow.jpg",
+   "type": "illustration",
+   "fallback": "➡️"
   },
   {
    "en": "yesterday",
    "de": "gestern",
    "cat": "calendar",
    "lvl": 5,
-   "img": "⬅️",
-   "type": "emoji"
+   "img": "img/words/yesterday.jpg",
+   "type": "illustration",
+   "fallback": "⬅️"
   },
   {
    "en": "house",
    "de": "das Haus",
    "cat": "objects",
    "lvl": 6,
-   "img": "🏠",
-   "type": "emoji"
+   "img": "img/words/house.jpg",
+   "type": "illustration",
+   "fallback": "🏠"
   },
   {
    "en": "car",
    "de": "das Auto",
    "cat": "objects",
    "lvl": 6,
-   "img": "🚗",
-   "type": "emoji"
+   "img": "img/words/car.jpg",
+   "type": "illustration",
+   "fallback": "🚗"
   },
   {
    "en": "book",
    "de": "das Buch",
    "cat": "objects",
    "lvl": 6,
-   "img": "📖",
-   "type": "emoji"
+   "img": "img/words/book.jpg",
+   "type": "illustration",
+   "fallback": "📖"
   },
   {
    "en": "table",
    "de": "der Tisch",
    "cat": "objects",
    "lvl": 6,
-   "img": "🍽️",
-   "type": "emoji"
+   "img": "img/words/table.jpg",
+   "type": "illustration",
+   "fallback": "🍽️"
   },
   {
    "en": "chair",
    "de": "der Stuhl",
    "cat": "objects",
    "lvl": 6,
-   "img": "🪑",
-   "type": "emoji"
+   "img": "img/words/chair.jpg",
+   "type": "illustration",
+   "fallback": "🪑"
   },
   {
    "en": "door",
    "de": "die Tür",
    "cat": "objects",
    "lvl": 6,
-   "img": "🚪",
-   "type": "emoji"
+   "img": "img/words/door.jpg",
+   "type": "illustration",
+   "fallback": "🚪"
   },
   {
    "en": "window",
    "de": "das Fenster",
    "cat": "objects",
    "lvl": 6,
-   "img": "🖼️",
-   "type": "emoji"
+   "img": "img/words/window.jpg",
+   "type": "illustration",
+   "fallback": "🖼️"
   },
   {
    "en": "bed",
    "de": "das Bett",
    "cat": "objects",
    "lvl": 6,
-   "img": "🛏️",
-   "type": "emoji"
+   "img": "img/words/bed.jpg",
+   "type": "illustration",
+   "fallback": "🛏️"
   },
   {
    "en": "phone",
    "de": "das Telefon",
    "cat": "objects",
    "lvl": 6,
-   "img": "📱",
-   "type": "emoji"
+   "img": "img/words/phone.jpg",
+   "type": "illustration",
+   "fallback": "📱"
   },
   {
    "en": "computer",
    "de": "der Computer",
    "cat": "objects",
    "lvl": 6,
-   "img": "💻",
-   "type": "emoji"
+   "img": "img/words/computer.jpg",
+   "type": "illustration",
+   "fallback": "💻"
   },
   {
    "en": "key",
    "de": "der Schlüssel",
    "cat": "objects",
    "lvl": 6,
-   "img": "🔑",
-   "type": "emoji"
+   "img": "img/words/key.jpg",
+   "type": "illustration",
+   "fallback": "🔑"
   },
   {
    "en": "clock",
    "de": "die Uhr",
    "cat": "objects",
    "lvl": 6,
-   "img": "🕐",
-   "type": "emoji"
+   "img": "img/words/clock.jpg",
+   "type": "illustration",
+   "fallback": "🕐"
   },
   {
    "en": "bag",
    "de": "die Tasche",
    "cat": "objects",
    "lvl": 6,
-   "img": "👜",
-   "type": "emoji"
+   "img": "img/words/bag.jpg",
+   "type": "illustration",
+   "fallback": "👜"
   },
   {
    "en": "money",
    "de": "das Geld",
    "cat": "objects",
    "lvl": 6,
-   "img": "💶",
-   "type": "emoji"
+   "img": "img/words/money.jpg",
+   "type": "illustration",
+   "fallback": "💶"
   },
   {
    "en": "pen",
    "de": "der Stift",
    "cat": "objects",
    "lvl": 6,
-   "img": "🖊️",
-   "type": "emoji"
+   "img": "img/words/pen.jpg",
+   "type": "illustration",
+   "fallback": "🖊️"
   },
   {
    "en": "lamp",
    "de": "die Lampe",
    "cat": "objects",
    "lvl": 6,
-   "img": "💡",
-   "type": "emoji"
+   "img": "img/words/lamp.jpg",
+   "type": "illustration",
+   "fallback": "💡"
   },
   {
    "en": "mirror",
    "de": "der Spiegel",
    "cat": "objects",
    "lvl": 6,
-   "img": "🤳",
-   "type": "emoji"
+   "img": "img/words/mirror.jpg",
+   "type": "illustration",
+   "fallback": "🤳"
   },
   {
    "en": "umbrella",
    "de": "der Regenschirm",
    "cat": "objects",
    "lvl": 6,
-   "img": "☂️",
-   "type": "emoji"
+   "img": "img/words/umbrella.jpg",
+   "type": "illustration",
+   "fallback": "☂️"
   },
   {
    "en": "shoe",
    "de": "der Schuh",
    "cat": "objects",
    "lvl": 6,
-   "img": "👞",
-   "type": "emoji"
+   "img": "img/words/shoe.jpg",
+   "type": "illustration",
+   "fallback": "👞"
   },
   {
    "en": "shirt",
    "de": "das Hemd",
    "cat": "objects",
    "lvl": 6,
-   "img": "👔",
-   "type": "emoji"
+   "img": "img/words/shirt.jpg",
+   "type": "illustration",
+   "fallback": "👔"
   },
   {
    "en": "hat",
    "de": "der Hut",
    "cat": "objects",
    "lvl": 6,
-   "img": "🎩",
-   "type": "emoji"
+   "img": "img/words/hat.jpg",
+   "type": "illustration",
+   "fallback": "🎩"
   },
   {
    "en": "glasses",
    "de": "die Brille",
    "cat": "objects",
    "lvl": 6,
-   "img": "👓",
-   "type": "emoji"
+   "img": "img/words/glasses.jpg",
+   "type": "illustration",
+   "fallback": "👓"
   },
   {
    "en": "television",
    "de": "der Fernseher",
    "cat": "objects",
    "lvl": 6,
-   "img": "📺",
-   "type": "emoji"
+   "img": "img/words/television.jpg",
+   "type": "illustration",
+   "fallback": "📺"
   },
   {
    "en": "sun",
    "de": "die Sonne",
    "cat": "objects",
    "lvl": 6,
-   "img": "☀️",
-   "type": "emoji"
+   "img": "img/words/sun.jpg",
+   "type": "illustration",
+   "fallback": "☀️"
   },
   {
    "en": "moon",
    "de": "der Mond",
    "cat": "objects",
    "lvl": 6,
-   "img": "🌙",
-   "type": "emoji"
+   "img": "img/words/moon.jpg",
+   "type": "illustration",
+   "fallback": "🌙"
   },
   {
    "en": "tree",
    "de": "der Baum",
    "cat": "objects",
    "lvl": 6,
-   "img": "🌳",
-   "type": "emoji"
+   "img": "img/words/tree.jpg",
+   "type": "illustration",
+   "fallback": "🌳"
   },
   {
    "en": "cloud",
    "de": "die Wolke",
    "cat": "objects",
    "lvl": 6,
-   "img": "☁️",
-   "type": "emoji"
+   "img": "img/words/cloud.jpg",
+   "type": "illustration",
+   "fallback": "☁️"
   },
   {
    "en": "dog",
    "de": "der Hund",
    "cat": "animals",
    "lvl": 7,
-   "img": "🐕",
-   "type": "emoji"
+   "img": "img/words/dog.jpg",
+   "type": "illustration",
+   "fallback": "🐕"
   },
   {
    "en": "cat",
    "de": "die Katze",
    "cat": "animals",
    "lvl": 7,
-   "img": "🐈",
-   "type": "emoji"
+   "img": "img/words/cat.jpg",
+   "type": "illustration",
+   "fallback": "🐈"
   },
   {
    "en": "bird",
    "de": "der Vogel",
    "cat": "animals",
    "lvl": 7,
-   "img": "🐦",
-   "type": "emoji"
+   "img": "img/words/bird.jpg",
+   "type": "illustration",
+   "fallback": "🐦"
   },
   {
    "en": "fish",
    "de": "der Fisch",
    "cat": "animals",
    "lvl": 7,
-   "img": "🐟",
-   "type": "emoji"
+   "img": "img/words/fish.jpg",
+   "type": "illustration",
+   "fallback": "🐟"
   },
   {
    "en": "horse",
    "de": "das Pferd",
    "cat": "animals",
    "lvl": 7,
-   "img": "🐴",
-   "type": "emoji"
+   "img": "img/words/horse.jpg",
+   "type": "illustration",
+   "fallback": "🐴"
   },
   {
    "en": "cow",
    "de": "die Kuh",
    "cat": "animals",
    "lvl": 7,
-   "img": "🐄",
-   "type": "emoji"
+   "img": "img/words/cow.jpg",
+   "type": "illustration",
+   "fallback": "🐄"
   },
   {
    "en": "pig",
    "de": "das Schwein",
    "cat": "animals",
    "lvl": 7,
-   "img": "🐷",
-   "type": "emoji"
+   "img": "img/words/pig.jpg",
+   "type": "illustration",
+   "fallback": "🐷"
   },
   {
    "en": "sheep",
    "de": "das Schaf",
    "cat": "animals",
    "lvl": 7,
-   "img": "🐑",
-   "type": "emoji"
+   "img": "img/words/sheep.jpg",
+   "type": "illustration",
+   "fallback": "🐑"
   },
   {
    "en": "chicken",
    "de": "das Huhn",
    "cat": "animals",
    "lvl": 7,
-   "img": "🐔",
-   "type": "emoji"
+   "img": "img/words/chicken.jpg",
+   "type": "illustration",
+   "fallback": "🐔"
   },
   {
    "en": "mouse",
    "de": "die Maus",
    "cat": "animals",
    "lvl": 7,
-   "img": "🐁",
-   "type": "emoji"
+   "img": "img/words/mouse.jpg",
+   "type": "illustration",
+   "fallback": "🐁"
   },
   {
    "en": "rabbit",
    "de": "das Kaninchen",
    "cat": "animals",
    "lvl": 7,
-   "img": "🐇",
-   "type": "emoji"
+   "img": "img/words/rabbit.jpg",
+   "type": "illustration",
+   "fallback": "🐇"
   },
   {
    "en": "bear",
    "de": "der Bär",
    "cat": "animals",
    "lvl": 7,
-   "img": "🐻",
-   "type": "emoji"
+   "img": "img/words/bear.jpg",
+   "type": "illustration",
+   "fallback": "🐻"
   },
   {
    "en": "lion",
    "de": "der Löwe",
    "cat": "animals",
    "lvl": 7,
-   "img": "🦁",
-   "type": "emoji"
+   "img": "img/words/lion.jpg",
+   "type": "illustration",
+   "fallback": "🦁"
   },
   {
    "en": "tiger",
    "de": "der Tiger",
    "cat": "animals",
    "lvl": 7,
-   "img": "🐯",
-   "type": "emoji"
+   "img": "img/words/tiger.jpg",
+   "type": "illustration",
+   "fallback": "🐯"
   },
   {
    "en": "elephant",
    "de": "der Elefant",
    "cat": "animals",
    "lvl": 7,
-   "img": "🐘",
-   "type": "emoji"
+   "img": "img/words/elephant.jpg",
+   "type": "illustration",
+   "fallback": "🐘"
   },
   {
    "en": "monkey",
    "de": "der Affe",
    "cat": "animals",
    "lvl": 7,
-   "img": "🐒",
-   "type": "emoji"
+   "img": "img/words/monkey.jpg",
+   "type": "illustration",
+   "fallback": "🐒"
   },
   {
    "en": "snake",
    "de": "die Schlange",
    "cat": "animals",
    "lvl": 7,
-   "img": "🐍",
-   "type": "emoji"
+   "img": "img/words/snake.jpg",
+   "type": "illustration",
+   "fallback": "🐍"
   },
   {
    "en": "frog",
    "de": "der Frosch",
    "cat": "animals",
    "lvl": 7,
-   "img": "🐸",
-   "type": "emoji"
+   "img": "img/words/frog.jpg",
+   "type": "illustration",
+   "fallback": "🐸"
   },
   {
    "en": "duck",
    "de": "die Ente",
    "cat": "animals",
    "lvl": 7,
-   "img": "🦆",
-   "type": "emoji"
+   "img": "img/words/duck.jpg",
+   "type": "illustration",
+   "fallback": "🦆"
   },
   {
    "en": "fox",
    "de": "der Fuchs",
    "cat": "animals",
    "lvl": 7,
-   "img": "🦊",
-   "type": "emoji"
+   "img": "img/words/fox.jpg",
+   "type": "illustration",
+   "fallback": "🦊"
   },
   {
    "en": "wolf",
    "de": "der Wolf",
    "cat": "animals",
    "lvl": 7,
-   "img": "🐺",
-   "type": "emoji"
+   "img": "img/words/wolf.jpg",
+   "type": "illustration",
+   "fallback": "🐺"
   },
   {
    "en": "spider",
    "de": "die Spinne",
    "cat": "animals",
    "lvl": 7,
-   "img": "🕷️",
-   "type": "emoji"
+   "img": "img/words/spider.jpg",
+   "type": "illustration",
+   "fallback": "🕷️"
   },
   {
    "en": "bee",
    "de": "die Biene",
    "cat": "animals",
    "lvl": 7,
-   "img": "🐝",
-   "type": "emoji"
+   "img": "img/words/bee.jpg",
+   "type": "illustration",
+   "fallback": "🐝"
   },
   {
    "en": "butterfly",
    "de": "der Schmetterling",
    "cat": "animals",
    "lvl": 7,
-   "img": "🦋",
-   "type": "emoji"
+   "img": "img/words/butterfly.jpg",
+   "type": "illustration",
+   "fallback": "🦋"
   },
   {
    "en": "bread",
    "de": "das Brot",
    "cat": "food",
    "lvl": 8,
-   "img": "🍞",
-   "type": "emoji"
+   "img": "img/words/bread.jpg",
+   "type": "illustration",
+   "fallback": "🍞"
   },
   {
    "en": "water",
    "de": "das Wasser",
    "cat": "food",
    "lvl": 8,
-   "img": "💧",
-   "type": "emoji"
+   "img": "img/words/water.jpg",
+   "type": "illustration",
+   "fallback": "💧"
   },
   {
    "en": "milk",
    "de": "die Milch",
    "cat": "food",
    "lvl": 8,
-   "img": "🥛",
-   "type": "emoji"
+   "img": "img/words/milk.jpg",
+   "type": "illustration",
+   "fallback": "🥛"
   },
   {
    "en": "coffee",
    "de": "der Kaffee",
    "cat": "food",
    "lvl": 8,
-   "img": "☕",
-   "type": "emoji"
+   "img": "img/words/coffee.jpg",
+   "type": "illustration",
+   "fallback": "☕"
   },
   {
    "en": "tea",
    "de": "der Tee",
    "cat": "food",
    "lvl": 8,
-   "img": "🍵",
-   "type": "emoji"
+   "img": "img/words/tea.jpg",
+   "type": "illustration",
+   "fallback": "🍵"
   },
   {
    "en": "beer",
    "de": "das Bier",
    "cat": "food",
    "lvl": 8,
-   "img": "🍺",
-   "type": "emoji"
+   "img": "img/words/beer.jpg",
+   "type": "illustration",
+   "fallback": "🍺"
   },
   {
    "en": "wine",
    "de": "der Wein",
    "cat": "food",
    "lvl": 8,
-   "img": "🍷",
-   "type": "emoji"
+   "img": "img/words/wine.jpg",
+   "type": "illustration",
+   "fallback": "🍷"
   },
   {
    "en": "apple",
    "de": "der Apfel",
    "cat": "food",
    "lvl": 8,
-   "img": "🍎",
-   "type": "emoji"
+   "img": "img/words/apple.jpg",
+   "type": "illustration",
+   "fallback": "🍎"
   },
   {
    "en": "banana",
    "de": "die Banane",
    "cat": "food",
    "lvl": 8,
-   "img": "🍌",
-   "type": "emoji"
+   "img": "img/words/banana.jpg",
+   "type": "illustration",
+   "fallback": "🍌"
   },
   {
    "en": "egg",
    "de": "das Ei",
    "cat": "food",
    "lvl": 8,
-   "img": "🥚",
-   "type": "emoji"
+   "img": "img/words/egg.jpg",
+   "type": "illustration",
+   "fallback": "🥚"
   },
   {
    "en": "cheese",
    "de": "der Käse",
    "cat": "food",
    "lvl": 8,
-   "img": "🧀",
-   "type": "emoji"
+   "img": "img/words/cheese.jpg",
+   "type": "illustration",
+   "fallback": "🧀"
   },
   {
    "en": "meat",
    "de": "das Fleisch",
    "cat": "food",
    "lvl": 8,
-   "img": "🥩",
-   "type": "emoji"
+   "img": "img/words/meat.jpg",
+   "type": "illustration",
+   "fallback": "🥩"
   },
   {
    "en": "rice",
    "de": "der Reis",
    "cat": "food",
    "lvl": 8,
-   "img": "🍚",
-   "type": "emoji"
+   "img": "img/words/rice.jpg",
+   "type": "illustration",
+   "fallback": "🍚"
   },
   {
    "en": "soup",
    "de": "die Suppe",
    "cat": "food",
    "lvl": 8,
-   "img": "🍲",
-   "type": "emoji"
+   "img": "img/words/soup.jpg",
+   "type": "illustration",
+   "fallback": "🍲"
   },
   {
    "en": "salad",
    "de": "der Salat",
    "cat": "food",
    "lvl": 8,
-   "img": "🥗",
-   "type": "emoji"
+   "img": "img/words/salad.jpg",
+   "type": "illustration",
+   "fallback": "🥗"
   },
   {
    "en": "cake",
    "de": "der Kuchen",
    "cat": "food",
    "lvl": 8,
-   "img": "🍰",
-   "type": "emoji"
+   "img": "img/words/cake.jpg",
+   "type": "illustration",
+   "fallback": "🍰"
   },
   {
    "en": "chocolate",
    "de": "die Schokolade",
    "cat": "food",
    "lvl": 8,
-   "img": "🍫",
-   "type": "emoji"
+   "img": "img/words/chocolate.jpg",
+   "type": "illustration",
+   "fallback": "🍫"
   },
   {
    "en": "sugar",
    "de": "der Zucker",
    "cat": "food",
    "lvl": 8,
-   "img": "🍬",
-   "type": "emoji"
+   "img": "img/words/sugar.jpg",
+   "type": "illustration",
+   "fallback": "🍬"
   },
   {
    "en": "salt",
    "de": "das Salz",
    "cat": "food",
    "lvl": 8,
-   "img": "🧂",
-   "type": "emoji"
+   "img": "img/words/salt.jpg",
+   "type": "illustration",
+   "fallback": "🧂"
   },
   {
    "en": "potato",
    "de": "die Kartoffel",
    "cat": "food",
    "lvl": 8,
-   "img": "🥔",
-   "type": "emoji"
+   "img": "img/words/potato.jpg",
+   "type": "illustration",
+   "fallback": "🥔"
   },
   {
    "en": "tomato",
    "de": "die Tomate",
    "cat": "food",
    "lvl": 8,
-   "img": "🍅",
-   "type": "emoji"
+   "img": "img/words/tomato.jpg",
+   "type": "illustration",
+   "fallback": "🍅"
   },
   {
    "en": "onion",
    "de": "die Zwiebel",
    "cat": "food",
    "lvl": 8,
-   "img": "🧅",
-   "type": "emoji"
+   "img": "img/words/onion.jpg",
+   "type": "illustration",
+   "fallback": "🧅"
   },
   {
    "en": "sausage",
    "de": "die Wurst",
    "cat": "food",
    "lvl": 8,
-   "img": "🌭",
-   "type": "emoji"
+   "img": "img/words/sausage.jpg",
+   "type": "illustration",
+   "fallback": "🌭"
   },
   {
    "en": "butter",
    "de": "die Butter",
    "cat": "food",
    "lvl": 8,
-   "img": "🥞",
-   "type": "emoji"
+   "img": "img/words/butter.jpg",
+   "type": "illustration",
+   "fallback": "🥞"
   },
   {
    "en": "juice",
    "de": "der Saft",
    "cat": "food",
    "lvl": 8,
-   "img": "🧃",
-   "type": "emoji"
+   "img": "img/words/juice.jpg",
+   "type": "illustration",
+   "fallback": "🧃"
   },
   {
    "en": "honey",
    "de": "der Honig",
    "cat": "food",
    "lvl": 8,
-   "img": "🍯",
-   "type": "emoji"
+   "img": "img/words/honey.jpg",
+   "type": "illustration",
+   "fallback": "🍯"
   },
   {
    "en": "pizza",
    "de": "die Pizza",
    "cat": "food",
    "lvl": 8,
-   "img": "🍕",
-   "type": "emoji"
+   "img": "img/words/pizza.jpg",
+   "type": "illustration",
+   "fallback": "🍕"
   },
   {
    "en": "pasta",
    "de": "die Nudeln",
    "cat": "food",
    "lvl": 8,
-   "img": "🍝",
-   "type": "emoji"
+   "img": "img/words/pasta.jpg",
+   "type": "illustration",
+   "fallback": "🍝"
   },
   {
    "en": "to be",
    "de": "sein",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🧘",
-   "type": "emoji"
+   "img": "img/words/to_be.jpg",
+   "type": "illustration",
+   "fallback": "🧘"
   },
   {
    "en": "to have",
    "de": "haben",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🤲",
-   "type": "emoji"
+   "img": "img/words/to_have.jpg",
+   "type": "illustration",
+   "fallback": "🤲"
   },
   {
    "en": "to go",
    "de": "gehen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🚶",
-   "type": "emoji"
+   "img": "img/words/to_go.jpg",
+   "type": "illustration",
+   "fallback": "🚶"
   },
   {
    "en": "to come",
    "de": "kommen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🛬",
-   "type": "emoji"
+   "img": "img/words/to_come.jpg",
+   "type": "illustration",
+   "fallback": "🛬"
   },
   {
    "en": "to eat",
    "de": "essen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🍽️",
-   "type": "emoji"
+   "img": "img/words/to_eat.jpg",
+   "type": "illustration",
+   "fallback": "🍽️"
   },
   {
    "en": "to drink",
    "de": "trinken",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🥤",
-   "type": "emoji"
+   "img": "img/words/to_drink.jpg",
+   "type": "illustration",
+   "fallback": "🥤"
   },
   {
    "en": "to see",
    "de": "sehen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "👀",
-   "type": "emoji"
+   "img": "img/words/to_see.jpg",
+   "type": "illustration",
+   "fallback": "👀"
   },
   {
    "en": "to make / do",
    "de": "machen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🔨",
-   "type": "emoji"
+   "img": "img/words/to_make_do.jpg",
+   "type": "illustration",
+   "fallback": "🔨"
   },
   {
    "en": "to say",
    "de": "sagen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "💬",
-   "type": "emoji"
+   "img": "img/words/to_say.jpg",
+   "type": "illustration",
+   "fallback": "💬"
   },
   {
    "en": "to know",
    "de": "wissen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🧠",
-   "type": "emoji"
+   "img": "img/words/to_know.jpg",
+   "type": "illustration",
+   "fallback": "🧠"
   },
   {
    "en": "to want",
    "de": "wollen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🥺",
-   "type": "emoji"
+   "img": "img/words/to_want.jpg",
+   "type": "illustration",
+   "fallback": "🥺"
   },
   {
    "en": "to be able to",
    "de": "können",
    "cat": "verbs",
    "lvl": 9,
-   "img": "💪",
-   "type": "emoji"
+   "img": "img/words/to_be_able_to.jpg",
+   "type": "illustration",
+   "fallback": "💪"
   },
   {
    "en": "to sleep",
    "de": "schlafen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "😴",
-   "type": "emoji"
+   "img": "img/words/to_sleep.jpg",
+   "type": "illustration",
+   "fallback": "😴"
   },
   {
    "en": "to work",
    "de": "arbeiten",
    "cat": "verbs",
    "lvl": 9,
-   "img": "💼",
-   "type": "emoji"
+   "img": "img/words/to_work.jpg",
+   "type": "illustration",
+   "fallback": "💼"
   },
   {
    "en": "to live",
    "de": "leben",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🏡",
-   "type": "emoji"
+   "img": "img/words/to_live.jpg",
+   "type": "illustration",
+   "fallback": "🏡"
   },
   {
    "en": "to love",
    "de": "lieben",
    "cat": "verbs",
    "lvl": 9,
-   "img": "❤️",
-   "type": "emoji"
+   "img": "img/words/to_love.jpg",
+   "type": "illustration",
+   "fallback": "❤️"
   },
   {
    "en": "to play",
    "de": "spielen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🎮",
-   "type": "emoji"
+   "img": "img/words/to_play.jpg",
+   "type": "illustration",
+   "fallback": "🎮"
   },
   {
    "en": "to read",
    "de": "lesen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "📖",
-   "type": "emoji"
+   "img": "img/words/to_read.jpg",
+   "type": "illustration",
+   "fallback": "📖"
   },
   {
    "en": "to write",
    "de": "schreiben",
    "cat": "verbs",
    "lvl": 9,
-   "img": "✍️",
-   "type": "emoji"
+   "img": "img/words/to_write.jpg",
+   "type": "illustration",
+   "fallback": "✍️"
   },
   {
    "en": "to speak",
    "de": "sprechen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🗣️",
-   "type": "emoji"
+   "img": "img/words/to_speak.jpg",
+   "type": "illustration",
+   "fallback": "🗣️"
   },
   {
    "en": "to buy",
    "de": "kaufen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🛍️",
-   "type": "emoji"
+   "img": "img/words/to_buy.jpg",
+   "type": "illustration",
+   "fallback": "🛍️"
   },
   {
    "en": "to give",
    "de": "geben",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🎁",
-   "type": "emoji"
+   "img": "img/words/to_give.jpg",
+   "type": "illustration",
+   "fallback": "🎁"
   },
   {
    "en": "to take",
    "de": "nehmen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "✋🍎",
-   "type": "emoji"
+   "img": "img/words/to_take.jpg",
+   "type": "illustration",
+   "fallback": "✋🍎"
   },
   {
    "en": "to think",
    "de": "denken",
    "cat": "verbs",
    "lvl": 9,
-   "img": "💭",
-   "type": "emoji"
+   "img": "img/words/to_think.jpg",
+   "type": "illustration",
+   "fallback": "💭"
   },
   {
    "en": "to run",
    "de": "rennen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🏃",
-   "type": "emoji"
+   "img": "img/words/to_run.jpg",
+   "type": "illustration",
+   "fallback": "🏃"
   },
   {
    "en": "to drive",
    "de": "fahren",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🚗",
-   "type": "emoji"
+   "img": "img/words/to_drive.jpg",
+   "type": "illustration",
+   "fallback": "🚗"
   },
   {
    "en": "to open",
    "de": "öffnen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🔓",
-   "type": "emoji"
+   "img": "img/words/to_open.jpg",
+   "type": "illustration",
+   "fallback": "🔓"
   },
   {
    "en": "to close",
    "de": "schließen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🔒",
-   "type": "emoji"
+   "img": "img/words/to_close.jpg",
+   "type": "illustration",
+   "fallback": "🔒"
   },
   {
    "en": "to understand",
    "de": "verstehen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "💡",
-   "type": "emoji"
+   "img": "img/words/to_understand.jpg",
+   "type": "illustration",
+   "fallback": "💡"
   },
   {
    "en": "to learn",
    "de": "lernen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🎓",
-   "type": "emoji"
+   "img": "img/words/to_learn.jpg",
+   "type": "illustration",
+   "fallback": "🎓"
   },
   {
    "en": "to help",
    "de": "helfen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🤝",
-   "type": "emoji"
+   "img": "img/words/to_help.jpg",
+   "type": "illustration",
+   "fallback": "🤝"
   },
   {
    "en": "to find",
    "de": "finden",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🔍",
-   "type": "emoji"
+   "img": "img/words/to_find.jpg",
+   "type": "illustration",
+   "fallback": "🔍"
   },
   {
    "en": "to search / look for",
    "de": "suchen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🔎",
-   "type": "emoji"
+   "img": "img/words/to_search_look_for.jpg",
+   "type": "illustration",
+   "fallback": "🔎"
   },
   {
    "en": "to wait",
    "de": "warten",
    "cat": "verbs",
    "lvl": 9,
-   "img": "⏱️",
-   "type": "emoji"
+   "img": "img/words/to_wait.jpg",
+   "type": "illustration",
+   "fallback": "⏱️"
   },
   {
    "en": "to stand",
    "de": "stehen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🧍",
-   "type": "emoji"
+   "img": "img/words/to_stand.jpg",
+   "type": "illustration",
+   "fallback": "🧍"
   },
   {
    "en": "to sit",
    "de": "sitzen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🪑",
-   "type": "emoji"
+   "img": "img/words/to_sit.jpg",
+   "type": "illustration",
+   "fallback": "🪑"
   },
   {
    "en": "to lie down",
    "de": "liegen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🛌",
-   "type": "emoji"
+   "img": "img/words/to_lie_down.jpg",
+   "type": "illustration",
+   "fallback": "🛌"
   },
   {
    "en": "to cook",
    "de": "kochen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🍳",
-   "type": "emoji"
+   "img": "img/words/to_cook.jpg",
+   "type": "illustration",
+   "fallback": "🍳"
   },
   {
    "en": "to clean",
    "de": "putzen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🧹",
-   "type": "emoji"
+   "img": "img/words/to_clean.jpg",
+   "type": "illustration",
+   "fallback": "🧹"
   },
   {
    "en": "to wash",
    "de": "waschen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🧺",
-   "type": "emoji"
+   "img": "img/words/to_wash.jpg",
+   "type": "illustration",
+   "fallback": "🧺"
   },
   {
    "en": "to pay",
    "de": "bezahlen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "💳",
-   "type": "emoji"
+   "img": "img/words/to_pay.jpg",
+   "type": "illustration",
+   "fallback": "💳"
   },
   {
    "en": "to sell",
    "de": "verkaufen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🏷️",
-   "type": "emoji"
+   "img": "img/words/to_sell.jpg",
+   "type": "illustration",
+   "fallback": "🏷️"
   },
   {
    "en": "to send",
    "de": "schicken",
    "cat": "verbs",
    "lvl": 9,
-   "img": "📤",
-   "type": "emoji"
+   "img": "img/words/to_send.jpg",
+   "type": "illustration",
+   "fallback": "📤"
   },
   {
    "en": "to receive / get",
    "de": "bekommen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "📥",
-   "type": "emoji"
+   "img": "img/words/to_receive_get.jpg",
+   "type": "illustration",
+   "fallback": "📥"
   },
   {
    "en": "to call (phone)",
    "de": "anrufen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "☎️",
-   "type": "emoji"
+   "img": "img/words/to_call_phone.jpg",
+   "type": "illustration",
+   "fallback": "☎️"
   },
   {
    "en": "to ask",
    "de": "fragen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "❓",
-   "type": "emoji"
+   "img": "img/words/to_ask.jpg",
+   "type": "illustration",
+   "fallback": "❓"
   },
   {
    "en": "to answer",
    "de": "antworten",
    "cat": "verbs",
    "lvl": 9,
-   "img": "❓💬",
-   "type": "emoji"
+   "img": "img/words/to_answer.jpg",
+   "type": "illustration",
+   "fallback": "❓💬"
   },
   {
    "en": "to show",
    "de": "zeigen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "👉",
-   "type": "emoji"
+   "img": "img/words/to_show.jpg",
+   "type": "illustration",
+   "fallback": "👉"
   },
   {
    "en": "to hear / listen",
    "de": "hören",
    "cat": "verbs",
    "lvl": 9,
-   "img": "👂",
-   "type": "emoji"
+   "img": "img/words/to_hear_listen.jpg",
+   "type": "illustration",
+   "fallback": "👂"
   },
   {
    "en": "to feel",
    "de": "fühlen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "💓",
-   "type": "emoji"
+   "img": "img/words/to_feel.jpg",
+   "type": "illustration",
+   "fallback": "💓"
   },
   {
    "en": "to forget",
    "de": "vergessen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🧠❌",
-   "type": "emoji"
+   "img": "img/words/to_forget.jpg",
+   "type": "illustration",
+   "fallback": "🧠❌"
   },
   {
    "en": "to try",
    "de": "versuchen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🎯",
-   "type": "emoji"
+   "img": "img/words/to_try.jpg",
+   "type": "illustration",
+   "fallback": "🎯"
   },
   {
    "en": "to need",
    "de": "brauchen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🍼",
-   "type": "emoji"
+   "img": "img/words/to_need.jpg",
+   "type": "illustration",
+   "fallback": "🍼"
   },
   {
    "en": "to begin / start",
    "de": "beginnen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "▶️",
-   "type": "emoji"
+   "img": "img/words/to_begin_start.jpg",
+   "type": "illustration",
+   "fallback": "▶️"
   },
   {
    "en": "to finish / end",
    "de": "beenden",
    "cat": "verbs",
    "lvl": 9,
-   "img": "⏹️",
-   "type": "emoji"
+   "img": "img/words/to_finish_end.jpg",
+   "type": "illustration",
+   "fallback": "⏹️"
   },
   {
    "en": "to stay",
    "de": "bleiben",
    "cat": "verbs",
    "lvl": 9,
-   "img": "📍",
-   "type": "emoji"
+   "img": "img/words/to_stay.jpg",
+   "type": "illustration",
+   "fallback": "📍"
   },
   {
    "en": "to travel",
    "de": "reisen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "✈️",
-   "type": "emoji"
+   "img": "img/words/to_travel.jpg",
+   "type": "illustration",
+   "fallback": "✈️"
   },
   {
    "en": "to swim",
    "de": "schwimmen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🏊",
-   "type": "emoji"
+   "img": "img/words/to_swim.jpg",
+   "type": "illustration",
+   "fallback": "🏊"
   },
   {
    "en": "to dance",
    "de": "tanzen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "💃",
-   "type": "emoji"
+   "img": "img/words/to_dance.jpg",
+   "type": "illustration",
+   "fallback": "💃"
   },
   {
    "en": "to sing",
    "de": "singen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🎤",
-   "type": "emoji"
+   "img": "img/words/to_sing.jpg",
+   "type": "illustration",
+   "fallback": "🎤"
   },
   {
    "en": "to laugh",
    "de": "lachen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "😂",
-   "type": "emoji"
+   "img": "img/words/to_laugh.jpg",
+   "type": "illustration",
+   "fallback": "😂"
   },
   {
    "en": "to jump",
    "de": "springen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🤸",
-   "type": "emoji"
+   "img": "img/words/to_jump.jpg",
+   "type": "illustration",
+   "fallback": "🤸"
   },
   {
    "en": "to win",
    "de": "gewinnen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🏆",
-   "type": "emoji"
+   "img": "img/words/to_win.jpg",
+   "type": "illustration",
+   "fallback": "🏆"
   },
   {
    "en": "to lose",
    "de": "verlieren",
    "cat": "verbs",
    "lvl": 9,
-   "img": "💔",
-   "type": "emoji"
+   "img": "img/words/to_lose.jpg",
+   "type": "illustration",
+   "fallback": "💔"
   },
   {
    "en": "to visit",
    "de": "besuchen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🚪🔔",
-   "type": "emoji"
+   "img": "img/words/to_visit.jpg",
+   "type": "illustration",
+   "fallback": "🚪🔔"
   },
   {
    "en": "to click",
    "de": "klicken",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🖱️",
-   "type": "emoji"
+   "img": "img/words/to_click.jpg",
+   "type": "illustration",
+   "fallback": "🖱️"
   },
   {
    "en": "to type",
    "de": "tippen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "⌨️",
-   "type": "emoji"
+   "img": "img/words/to_type.jpg",
+   "type": "illustration",
+   "fallback": "⌨️"
   },
   {
    "en": "to log in",
    "de": "einloggen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🔑",
-   "type": "emoji"
+   "img": "img/words/to_log_in.jpg",
+   "type": "illustration",
+   "fallback": "🔑"
   },
   {
    "en": "to log out",
    "de": "ausloggen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🚪",
-   "type": "emoji"
+   "img": "img/words/to_log_out.jpg",
+   "type": "illustration",
+   "fallback": "🚪"
   },
   {
    "en": "to save",
    "de": "speichern",
    "cat": "verbs",
    "lvl": 9,
-   "img": "💾",
-   "type": "emoji"
+   "img": "img/words/to_save.jpg",
+   "type": "illustration",
+   "fallback": "💾"
   },
   {
    "en": "to print",
    "de": "drucken",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🖨️",
-   "type": "emoji"
+   "img": "img/words/to_print.jpg",
+   "type": "illustration",
+   "fallback": "🖨️"
   },
   {
    "en": "to scan",
    "de": "scannen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "📷",
-   "type": "emoji"
+   "img": "img/words/to_scan.jpg",
+   "type": "illustration",
+   "fallback": "📷"
   },
   {
    "en": "to download",
    "de": "herunterladen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "⬇️",
-   "type": "emoji"
+   "img": "img/words/to_download.jpg",
+   "type": "illustration",
+   "fallback": "⬇️"
   },
   {
    "en": "to upload",
    "de": "hochladen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "⬆️",
-   "type": "emoji"
+   "img": "img/words/to_upload.jpg",
+   "type": "illustration",
+   "fallback": "⬆️"
   },
   {
    "en": "to install",
    "de": "installieren",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🧩",
-   "type": "emoji"
+   "img": "img/words/to_install.jpg",
+   "type": "illustration",
+   "fallback": "🧩"
   },
   {
    "en": "to delete",
    "de": "löschen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🗑️",
-   "type": "emoji"
+   "img": "img/words/to_delete.jpg",
+   "type": "illustration",
+   "fallback": "🗑️"
   },
   {
    "en": "to copy",
    "de": "kopieren",
    "cat": "verbs",
    "lvl": 9,
-   "img": "📋",
-   "type": "emoji"
+   "img": "img/words/to_copy.jpg",
+   "type": "illustration",
+   "fallback": "📋"
   },
   {
    "en": "to paste",
    "de": "einfügen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "📎",
-   "type": "emoji"
+   "img": "img/words/to_paste.jpg",
+   "type": "illustration",
+   "fallback": "📎"
   },
   {
    "en": "to select",
    "de": "auswählen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "☑️",
-   "type": "emoji"
+   "img": "img/words/to_select.jpg",
+   "type": "illustration",
+   "fallback": "☑️"
   },
   {
    "en": "to confirm",
    "de": "bestätigen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "✅",
-   "type": "emoji"
+   "img": "img/words/to_confirm.jpg",
+   "type": "illustration",
+   "fallback": "✅"
   },
   {
    "en": "to cancel",
    "de": "abbrechen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "❌",
-   "type": "emoji"
+   "img": "img/words/to_cancel.jpg",
+   "type": "illustration",
+   "fallback": "❌"
   },
   {
    "en": "to connect",
    "de": "verbinden",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🔗",
-   "type": "emoji"
+   "img": "img/words/to_connect.jpg",
+   "type": "illustration",
+   "fallback": "🔗"
   },
   {
    "en": "to restart",
    "de": "neu starten",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🔄",
-   "type": "emoji"
+   "img": "img/words/to_restart.jpg",
+   "type": "illustration",
+   "fallback": "🔄"
   },
   {
    "en": "to weigh",
    "de": "wiegen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "⚖️",
-   "type": "emoji"
+   "img": "img/words/to_weigh.jpg",
+   "type": "illustration",
+   "fallback": "⚖️"
   },
   {
    "en": "to pack / bag",
    "de": "einpacken",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🎒",
-   "type": "emoji"
+   "img": "img/words/to_pack_bag.jpg",
+   "type": "illustration",
+   "fallback": "🎒"
   },
   {
    "en": "to enter (PIN/code)",
    "de": "eingeben",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🔢",
-   "type": "emoji"
+   "img": "img/words/to_enter_pin_code.jpg",
+   "type": "illustration",
+   "fallback": "🔢"
   },
   {
    "en": "to insert (a card)",
    "de": "einstecken",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🏧",
-   "type": "emoji"
+   "img": "img/words/to_insert_a_card.jpg",
+   "type": "illustration",
+   "fallback": "🏧"
   },
   {
    "en": "to tap / pay contactless",
    "de": "kontaktlos bezahlen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "📲",
-   "type": "emoji"
+   "img": "img/words/to_tap_pay_contactless.jpg",
+   "type": "illustration",
+   "fallback": "📲"
   },
   {
    "en": "to swipe (a card)",
    "de": "durchziehen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "➡️",
-   "type": "emoji"
+   "img": "img/words/to_swipe_a_card.jpg",
+   "type": "illustration",
+   "fallback": "➡️"
   },
   {
    "en": "to get a receipt",
    "de": "den Beleg holen",
    "cat": "verbs",
    "lvl": 9,
-   "img": "🧾",
-   "type": "emoji"
+   "img": "img/words/to_get_a_receipt.jpg",
+   "type": "illustration",
+   "fallback": "🧾"
   },
   {
    "en": "big",
@@ -2295,184 +2519,207 @@
    "de": "gut",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "👍",
-   "type": "emoji"
+   "img": "img/words/good.jpg",
+   "type": "illustration",
+   "fallback": "👍"
   },
   {
    "en": "bad",
    "de": "schlecht",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "👎",
-   "type": "emoji"
+   "img": "img/words/bad.jpg",
+   "type": "illustration",
+   "fallback": "👎"
   },
   {
    "en": "hot",
    "de": "heiß",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "🔥",
-   "type": "emoji"
+   "img": "img/words/hot.jpg",
+   "type": "illustration",
+   "fallback": "🔥"
   },
   {
    "en": "cold",
    "de": "kalt",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "❄️",
-   "type": "emoji"
+   "img": "img/words/cold.jpg",
+   "type": "illustration",
+   "fallback": "❄️"
   },
   {
    "en": "new",
    "de": "neu",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "✨",
-   "type": "emoji"
+   "img": "img/words/new.jpg",
+   "type": "illustration",
+   "fallback": "✨"
   },
   {
    "en": "old",
    "de": "alt",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "👴",
-   "type": "emoji"
+   "img": "img/words/old.jpg",
+   "type": "illustration",
+   "fallback": "👴"
   },
   {
    "en": "fast",
    "de": "schnell",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "⚡",
-   "type": "emoji"
+   "img": "img/words/fast.jpg",
+   "type": "illustration",
+   "fallback": "⚡"
   },
   {
    "en": "slow",
    "de": "langsam",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "🐌",
-   "type": "emoji"
+   "img": "img/words/slow.jpg",
+   "type": "illustration",
+   "fallback": "🐌"
   },
   {
    "en": "happy",
    "de": "glücklich",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "😊",
-   "type": "emoji"
+   "img": "img/words/happy.jpg",
+   "type": "illustration",
+   "fallback": "😊"
   },
   {
    "en": "sad",
    "de": "traurig",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "😢",
-   "type": "emoji"
+   "img": "img/words/sad.jpg",
+   "type": "illustration",
+   "fallback": "😢"
   },
   {
    "en": "beautiful",
    "de": "schön",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "😍",
-   "type": "emoji"
+   "img": "img/words/beautiful.jpg",
+   "type": "illustration",
+   "fallback": "😍"
   },
   {
    "en": "ugly",
    "de": "hässlich",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "👹",
-   "type": "emoji"
+   "img": "img/words/ugly.jpg",
+   "type": "illustration",
+   "fallback": "👹"
   },
   {
    "en": "easy",
    "de": "einfach",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "👌",
-   "type": "emoji"
+   "img": "img/words/easy.jpg",
+   "type": "illustration",
+   "fallback": "👌"
   },
   {
    "en": "difficult",
    "de": "schwierig",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "🧩",
-   "type": "emoji"
+   "img": "img/words/difficult.jpg",
+   "type": "illustration",
+   "fallback": "🧩"
   },
   {
    "en": "expensive",
    "de": "teuer",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "💰",
-   "type": "emoji"
+   "img": "img/words/expensive.jpg",
+   "type": "illustration",
+   "fallback": "💰"
   },
   {
    "en": "cheap",
    "de": "billig",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "🏷️",
-   "type": "emoji"
+   "img": "img/words/cheap.jpg",
+   "type": "illustration",
+   "fallback": "🏷️"
   },
   {
    "en": "strong",
    "de": "stark",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "💪",
-   "type": "emoji"
+   "img": "img/words/strong.jpg",
+   "type": "illustration",
+   "fallback": "💪"
   },
   {
    "en": "weak",
    "de": "schwach",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "💪❌",
-   "type": "emoji"
+   "img": "img/words/weak.jpg",
+   "type": "illustration",
+   "fallback": "💪❌"
   },
   {
    "en": "young",
    "de": "jung",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "🧒",
-   "type": "emoji"
+   "img": "img/words/young.jpg",
+   "type": "illustration",
+   "fallback": "🧒"
   },
   {
    "en": "short",
    "de": "kurz",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "✂️📏",
-   "type": "emoji"
+   "img": "img/words/short.jpg",
+   "type": "illustration",
+   "fallback": "✂️📏"
   },
   {
    "en": "long",
    "de": "lang",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "📏🐍",
-   "type": "emoji"
+   "img": "img/words/long.jpg",
+   "type": "illustration",
+   "fallback": "📏🐍"
   },
   {
    "en": "clean",
    "de": "sauber",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "🧼",
-   "type": "emoji"
+   "img": "img/words/clean.jpg",
+   "type": "illustration",
+   "fallback": "🧼"
   },
   {
    "en": "dirty",
    "de": "schmutzig",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "💩",
-   "type": "emoji"
+   "img": "img/words/dirty.jpg",
+   "type": "illustration",
+   "fallback": "💩"
   },
   {
    "en": "full",
@@ -2495,1760 +2742,1980 @@
    "de": "richtig",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "✔️",
-   "type": "emoji"
+   "img": "img/words/right_correct.jpg",
+   "type": "illustration",
+   "fallback": "✔️"
   },
   {
    "en": "wrong",
    "de": "falsch",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "✖️",
-   "type": "emoji"
+   "img": "img/words/wrong.jpg",
+   "type": "illustration",
+   "fallback": "✖️"
   },
   {
    "en": "tall / high",
    "de": "hoch",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "⬆️",
-   "type": "emoji"
+   "img": "img/words/tall_high.jpg",
+   "type": "illustration",
+   "fallback": "⬆️"
   },
   {
    "en": "low",
    "de": "niedrig",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "⬇️",
-   "type": "emoji"
+   "img": "img/words/low.jpg",
+   "type": "illustration",
+   "fallback": "⬇️"
   },
   {
    "en": "wide",
    "de": "breit",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "↔️",
-   "type": "emoji"
+   "img": "img/words/wide.jpg",
+   "type": "illustration",
+   "fallback": "↔️"
   },
   {
    "en": "narrow",
    "de": "eng",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "🤏",
-   "type": "emoji"
+   "img": "img/words/narrow.jpg",
+   "type": "illustration",
+   "fallback": "🤏"
   },
   {
    "en": "deep",
    "de": "tief",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "⬇️🕳️",
-   "type": "emoji"
+   "img": "img/words/deep.jpg",
+   "type": "illustration",
+   "fallback": "⬇️🕳️"
   },
   {
    "en": "heavy",
    "de": "schwer",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "🏋️",
-   "type": "emoji"
+   "img": "img/words/heavy.jpg",
+   "type": "illustration",
+   "fallback": "🏋️"
   },
   {
    "en": "light (weight)",
    "de": "leicht",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "🎈",
-   "type": "emoji"
+   "img": "img/words/light_weight.jpg",
+   "type": "illustration",
+   "fallback": "🎈"
   },
   {
    "en": "loud",
    "de": "laut",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "🔊",
-   "type": "emoji"
+   "img": "img/words/loud.jpg",
+   "type": "illustration",
+   "fallback": "🔊"
   },
   {
    "en": "quiet",
    "de": "leise",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "🤫",
-   "type": "emoji"
+   "img": "img/words/quiet.jpg",
+   "type": "illustration",
+   "fallback": "🤫"
   },
   {
    "en": "bright",
    "de": "hell",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "🔆",
-   "type": "emoji"
+   "img": "img/words/bright.jpg",
+   "type": "illustration",
+   "fallback": "🔆"
   },
   {
    "en": "dark",
    "de": "dunkel",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "🌑",
-   "type": "emoji"
+   "img": "img/words/dark.jpg",
+   "type": "illustration",
+   "fallback": "🌑"
   },
   {
    "en": "rich",
    "de": "reich",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "💵",
-   "type": "emoji"
+   "img": "img/words/rich.jpg",
+   "type": "illustration",
+   "fallback": "💵"
   },
   {
    "en": "poor",
    "de": "arm",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "🥺",
-   "type": "emoji"
+   "img": "img/words/poor.jpg",
+   "type": "illustration",
+   "fallback": "🥺"
   },
   {
    "en": "important",
    "de": "wichtig",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "❗",
-   "type": "emoji"
+   "img": "img/words/important.jpg",
+   "type": "illustration",
+   "fallback": "❗"
   },
   {
    "en": "interesting",
    "de": "interessant",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "🧐",
-   "type": "emoji"
+   "img": "img/words/interesting.jpg",
+   "type": "illustration",
+   "fallback": "🧐"
   },
   {
    "en": "boring",
    "de": "langweilig",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "😑",
-   "type": "emoji"
+   "img": "img/words/boring.jpg",
+   "type": "illustration",
+   "fallback": "😑"
   },
   {
    "en": "friendly",
    "de": "freundlich",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "🙂",
-   "type": "emoji"
+   "img": "img/words/friendly.jpg",
+   "type": "illustration",
+   "fallback": "🙂"
   },
   {
    "en": "angry",
    "de": "wütend",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "😠",
-   "type": "emoji"
+   "img": "img/words/angry.jpg",
+   "type": "illustration",
+   "fallback": "😠"
   },
   {
    "en": "afraid / scared",
    "de": "ängstlich",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "😨",
-   "type": "emoji"
+   "img": "img/words/afraid_scared.jpg",
+   "type": "illustration",
+   "fallback": "😨"
   },
   {
    "en": "tired",
    "de": "müde",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "🥱",
-   "type": "emoji"
+   "img": "img/words/tired.jpg",
+   "type": "illustration",
+   "fallback": "🥱"
   },
   {
    "en": "hungry",
    "de": "hungrig",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "🍔",
-   "type": "emoji"
+   "img": "img/words/hungry.jpg",
+   "type": "illustration",
+   "fallback": "🍔"
   },
   {
    "en": "thirsty",
    "de": "durstig",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "🚰",
-   "type": "emoji"
+   "img": "img/words/thirsty.jpg",
+   "type": "illustration",
+   "fallback": "🚰"
   },
   {
    "en": "healthy",
    "de": "gesund",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "💚",
-   "type": "emoji"
+   "img": "img/words/healthy.jpg",
+   "type": "illustration",
+   "fallback": "💚"
   },
   {
    "en": "sick",
    "de": "krank",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "🤒",
-   "type": "emoji"
+   "img": "img/words/sick.jpg",
+   "type": "illustration",
+   "fallback": "🤒"
   },
   {
    "en": "famous",
    "de": "berühmt",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "🌟",
-   "type": "emoji"
+   "img": "img/words/famous.jpg",
+   "type": "illustration",
+   "fallback": "🌟"
   },
   {
    "en": "funny",
    "de": "lustig",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "😆",
-   "type": "emoji"
+   "img": "img/words/funny.jpg",
+   "type": "illustration",
+   "fallback": "😆"
   },
   {
    "en": "polite",
    "de": "höflich",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "🎩",
-   "type": "emoji"
+   "img": "img/words/polite.jpg",
+   "type": "illustration",
+   "fallback": "🎩"
   },
   {
    "en": "dangerous",
    "de": "gefährlich",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "☢️",
-   "type": "emoji"
+   "img": "img/words/dangerous.jpg",
+   "type": "illustration",
+   "fallback": "☢️"
   },
   {
    "en": "safe",
    "de": "sicher",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "🛡️",
-   "type": "emoji"
+   "img": "img/words/safe.jpg",
+   "type": "illustration",
+   "fallback": "🛡️"
   },
   {
    "en": "different",
    "de": "verschieden",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "🔀",
-   "type": "emoji"
+   "img": "img/words/different.jpg",
+   "type": "illustration",
+   "fallback": "🔀"
   },
   {
    "en": "comfortable",
    "de": "bequem",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "🛋️",
-   "type": "emoji"
+   "img": "img/words/comfortable.jpg",
+   "type": "illustration",
+   "fallback": "🛋️"
   },
   {
    "en": "ready / finished",
    "de": "fertig",
    "cat": "adjectives",
    "lvl": 10,
-   "img": "🏁",
-   "type": "emoji"
+   "img": "img/words/ready_finished.jpg",
+   "type": "illustration",
+   "fallback": "🏁"
   },
   {
    "en": "hello",
    "de": "hallo",
    "cat": "phrases",
    "lvl": 11,
-   "img": "👋",
-   "type": "emoji"
+   "img": "img/words/hello.jpg",
+   "type": "illustration",
+   "fallback": "👋"
   },
   {
    "en": "good morning",
    "de": "guten Morgen",
    "cat": "phrases",
    "lvl": 11,
-   "img": "🌅",
-   "type": "emoji"
+   "img": "img/words/good_morning.jpg",
+   "type": "illustration",
+   "fallback": "🌅"
   },
   {
    "en": "good evening",
    "de": "guten Abend",
    "cat": "phrases",
    "lvl": 11,
-   "img": "🌆",
-   "type": "emoji"
+   "img": "img/words/good_evening.jpg",
+   "type": "illustration",
+   "fallback": "🌆"
   },
   {
    "en": "good night",
    "de": "gute Nacht",
    "cat": "phrases",
    "lvl": 11,
-   "img": "🌙",
-   "type": "emoji"
+   "img": "img/words/good_night.jpg",
+   "type": "illustration",
+   "fallback": "🌙"
   },
   {
    "en": "goodbye",
    "de": "auf Wiedersehen",
    "cat": "phrases",
    "lvl": 11,
-   "img": "🚪",
-   "type": "emoji"
+   "img": "img/words/goodbye.jpg",
+   "type": "illustration",
+   "fallback": "🚪"
   },
   {
    "en": "please",
    "de": "bitte",
    "cat": "phrases",
    "lvl": 11,
-   "img": "🙏",
-   "type": "emoji"
+   "img": "img/words/please.jpg",
+   "type": "illustration",
+   "fallback": "🙏"
   },
   {
    "en": "thank you",
    "de": "danke",
    "cat": "phrases",
    "lvl": 11,
-   "img": "🙌",
-   "type": "emoji"
+   "img": "img/words/thank_you.jpg",
+   "type": "illustration",
+   "fallback": "🙌"
   },
   {
    "en": "yes",
    "de": "ja",
    "cat": "phrases",
    "lvl": 11,
-   "img": "✅",
-   "type": "emoji"
+   "img": "img/words/yes.jpg",
+   "type": "illustration",
+   "fallback": "✅"
   },
   {
    "en": "no",
    "de": "nein",
    "cat": "phrases",
    "lvl": 11,
-   "img": "❌",
-   "type": "emoji"
+   "img": "img/words/no.jpg",
+   "type": "illustration",
+   "fallback": "❌"
   },
   {
    "en": "excuse me",
    "de": "Entschuldigung",
    "cat": "phrases",
    "lvl": 11,
-   "img": "🙋",
-   "type": "emoji"
+   "img": "img/words/excuse_me.jpg",
+   "type": "illustration",
+   "fallback": "🙋"
   },
   {
    "en": "sorry",
    "de": "es tut mir leid",
    "cat": "phrases",
    "lvl": 11,
-   "img": "😔",
-   "type": "emoji"
+   "img": "img/words/sorry.jpg",
+   "type": "illustration",
+   "fallback": "😔"
   },
   {
    "en": "how are you",
    "de": "wie geht's",
    "cat": "phrases",
    "lvl": 11,
-   "img": "🤗",
-   "type": "emoji"
+   "img": "img/words/how_are_you.jpg",
+   "type": "illustration",
+   "fallback": "🤗"
   },
   {
    "en": "my name is",
    "de": "ich heiße",
    "cat": "phrases",
    "lvl": 11,
-   "img": "📛",
-   "type": "emoji"
+   "img": "img/words/my_name_is.jpg",
+   "type": "illustration",
+   "fallback": "📛"
   },
   {
    "en": "nice to meet you",
    "de": "freut mich",
    "cat": "phrases",
    "lvl": 11,
-   "img": "🤝",
-   "type": "emoji"
+   "img": "img/words/nice_to_meet_you.jpg",
+   "type": "illustration",
+   "fallback": "🤝"
   },
   {
    "en": "see you later",
    "de": "bis später",
    "cat": "phrases",
    "lvl": 11,
-   "img": "🚶",
-   "type": "emoji"
+   "img": "img/words/see_you_later.jpg",
+   "type": "illustration",
+   "fallback": "🚶"
   },
   {
    "en": "welcome",
    "de": "willkommen",
    "cat": "phrases",
    "lvl": 11,
-   "img": "👐",
-   "type": "emoji"
+   "img": "img/words/welcome.jpg",
+   "type": "illustration",
+   "fallback": "👐"
   },
   {
    "en": "cheers",
    "de": "prost",
    "cat": "phrases",
    "lvl": 11,
-   "img": "🍻",
-   "type": "emoji"
+   "img": "img/words/cheers.jpg",
+   "type": "illustration",
+   "fallback": "🍻"
   },
   {
    "en": "congratulations",
    "de": "herzlichen Glückwunsch",
    "cat": "phrases",
    "lvl": 11,
-   "img": "🎉",
-   "type": "emoji"
+   "img": "img/words/congratulations.jpg",
+   "type": "illustration",
+   "fallback": "🎉"
   },
   {
    "en": "help",
    "de": "Hilfe",
    "cat": "phrases",
    "lvl": 11,
-   "img": "🆘",
-   "type": "emoji"
+   "img": "img/words/help.jpg",
+   "type": "illustration",
+   "fallback": "🆘"
   },
   {
    "en": "where is",
    "de": "wo ist",
    "cat": "phrases",
    "lvl": 11,
-   "img": "📍",
-   "type": "emoji"
+   "img": "img/words/where_is.jpg",
+   "type": "illustration",
+   "fallback": "📍"
   },
   {
    "en": "how much does it cost",
    "de": "wie viel kostet das",
    "cat": "phrases",
    "lvl": 11,
-   "img": "💶",
-   "type": "emoji"
+   "img": "img/words/how_much_does_it_cost.jpg",
+   "type": "illustration",
+   "fallback": "💶"
   },
   {
    "en": "I don't understand",
    "de": "ich verstehe nicht",
    "cat": "phrases",
    "lvl": 11,
-   "img": "😕",
-   "type": "emoji"
+   "img": "img/words/i_don_t_understand.jpg",
+   "type": "illustration",
+   "fallback": "😕"
   },
   {
    "en": "what's your name?",
    "de": "wie heißt du?",
    "cat": "phrases",
    "lvl": 11,
-   "img": "❓",
-   "type": "emoji"
+   "img": "img/words/what_s_your_name.jpg",
+   "type": "illustration",
+   "fallback": "❓"
   },
   {
    "en": "I'm fine, thanks",
    "de": "mir geht's gut, danke",
    "cat": "phrases",
    "lvl": 11,
-   "img": "😊",
-   "type": "emoji"
+   "img": "img/words/i_m_fine_thanks.jpg",
+   "type": "illustration",
+   "fallback": "😊"
   },
   {
    "en": "can you help me?",
    "de": "kannst du mir helfen?",
    "cat": "phrases",
    "lvl": 11,
-   "img": "🤲",
-   "type": "emoji"
+   "img": "img/words/can_you_help_me.jpg",
+   "type": "illustration",
+   "fallback": "🤲"
   },
   {
    "en": "I don't know",
    "de": "ich weiß nicht",
    "cat": "phrases",
    "lvl": 11,
-   "img": "🤷",
-   "type": "emoji"
+   "img": "img/words/i_don_t_know.jpg",
+   "type": "illustration",
+   "fallback": "🤷"
   },
   {
    "en": "where is the bathroom?",
    "de": "wo ist die Toilette?",
    "cat": "phrases",
    "lvl": 11,
-   "img": "🚻",
-   "type": "emoji"
+   "img": "img/words/where_is_the_bathroom.jpg",
+   "type": "illustration",
+   "fallback": "🚻"
   },
   {
    "en": "do you speak English?",
    "de": "sprichst du Englisch?",
    "cat": "phrases",
    "lvl": 11,
-   "img": "🗣️",
-   "type": "emoji"
+   "img": "img/words/do_you_speak_english.jpg",
+   "type": "illustration",
+   "fallback": "🗣️"
   },
   {
    "en": "have a nice day",
    "de": "einen schönen Tag noch",
    "cat": "phrases",
    "lvl": 11,
-   "img": "☀️",
-   "type": "emoji"
+   "img": "img/words/have_a_nice_day.jpg",
+   "type": "illustration",
+   "fallback": "☀️"
   },
   {
    "en": "no problem",
    "de": "kein Problem",
    "cat": "phrases",
    "lvl": 11,
-   "img": "👍",
-   "type": "emoji"
+   "img": "img/words/no_problem.jpg",
+   "type": "illustration",
+   "fallback": "👍"
   },
   {
    "en": "maybe",
    "de": "vielleicht",
    "cat": "phrases",
    "lvl": 11,
-   "img": "🤔",
-   "type": "emoji"
+   "img": "img/words/maybe.jpg",
+   "type": "illustration",
+   "fallback": "🤔"
   },
   {
    "en": "let's go",
    "de": "lass uns gehen",
    "cat": "phrases",
    "lvl": 11,
-   "img": "🚶",
-   "type": "emoji"
+   "img": "img/words/let_s_go.jpg",
+   "type": "illustration",
+   "fallback": "🚶"
   },
   {
    "en": "watch out / be careful",
    "de": "Vorsicht!",
    "cat": "phrases",
    "lvl": 11,
-   "img": "⚠️",
-   "type": "emoji"
+   "img": "img/words/watch_out_be_careful.jpg",
+   "type": "illustration",
+   "fallback": "⚠️"
   },
   {
    "en": "it doesn't matter",
    "de": "das macht nichts",
    "cat": "phrases",
    "lvl": 11,
-   "img": "🤙",
-   "type": "emoji"
+   "img": "img/words/it_doesn_t_matter.jpg",
+   "type": "illustration",
+   "fallback": "🤙"
   },
   {
    "en": "up",
    "de": "oben",
    "cat": "directions",
    "lvl": 12,
-   "img": "⬆️",
-   "type": "emoji"
+   "img": "img/words/up.jpg",
+   "type": "illustration",
+   "fallback": "⬆️"
   },
   {
    "en": "down",
    "de": "unten",
    "cat": "directions",
    "lvl": 12,
-   "img": "⬇️",
-   "type": "emoji"
+   "img": "img/words/down.jpg",
+   "type": "illustration",
+   "fallback": "⬇️"
   },
   {
    "en": "left",
    "de": "links",
    "cat": "directions",
    "lvl": 12,
-   "img": "⬅️",
-   "type": "emoji"
+   "img": "img/words/left.jpg",
+   "type": "illustration",
+   "fallback": "⬅️"
   },
   {
    "en": "right",
    "de": "rechts",
    "cat": "directions",
    "lvl": 12,
-   "img": "➡️",
-   "type": "emoji"
+   "img": "img/words/right.jpg",
+   "type": "illustration",
+   "fallback": "➡️"
   },
   {
    "en": "straight ahead",
    "de": "geradeaus",
    "cat": "directions",
    "lvl": 12,
-   "img": "⏫",
-   "type": "emoji"
+   "img": "img/words/straight_ahead.jpg",
+   "type": "illustration",
+   "fallback": "⏫"
   },
   {
    "en": "forward",
    "de": "vorwärts",
    "cat": "directions",
    "lvl": 12,
-   "img": "⏩",
-   "type": "emoji"
+   "img": "img/words/forward.jpg",
+   "type": "illustration",
+   "fallback": "⏩"
   },
   {
    "en": "backward",
    "de": "rückwärts",
    "cat": "directions",
    "lvl": 12,
-   "img": "⏪",
-   "type": "emoji"
+   "img": "img/words/backward.jpg",
+   "type": "illustration",
+   "fallback": "⏪"
   },
   {
    "en": "here",
    "de": "hier",
    "cat": "directions",
    "lvl": 12,
-   "img": "📍",
-   "type": "emoji"
+   "img": "img/words/here.jpg",
+   "type": "illustration",
+   "fallback": "📍"
   },
   {
    "en": "there",
    "de": "dort",
    "cat": "directions",
    "lvl": 12,
-   "img": "👉",
-   "type": "emoji"
+   "img": "img/words/there.jpg",
+   "type": "illustration",
+   "fallback": "👉"
   },
   {
    "en": "near",
    "de": "nah",
    "cat": "directions",
    "lvl": 12,
-   "img": "🤏",
-   "type": "emoji"
+   "img": "img/words/near.jpg",
+   "type": "illustration",
+   "fallback": "🤏"
   },
   {
    "en": "far",
    "de": "weit",
    "cat": "directions",
    "lvl": 12,
-   "img": "🔭",
-   "type": "emoji"
+   "img": "img/words/far.jpg",
+   "type": "illustration",
+   "fallback": "🔭"
   },
   {
    "en": "steering wheel",
    "de": "das Lenkrad",
    "cat": "car",
    "lvl": 13,
-   "img": "🕹️",
-   "type": "emoji"
+   "img": "img/words/steering_wheel.jpg",
+   "type": "illustration",
+   "fallback": "🕹️"
   },
   {
    "en": "brake",
    "de": "die Bremse",
    "cat": "car",
    "lvl": 13,
-   "img": "🛑",
-   "type": "emoji"
+   "img": "img/words/brake.jpg",
+   "type": "illustration",
+   "fallback": "🛑"
   },
   {
    "en": "accelerator / gas pedal",
    "de": "das Gaspedal",
    "cat": "car",
    "lvl": 13,
-   "img": "🚀",
-   "type": "emoji"
+   "img": "img/words/accelerator_gas_pedal.jpg",
+   "type": "illustration",
+   "fallback": "🚀"
   },
   {
    "en": "tire",
    "de": "der Reifen",
    "cat": "car",
    "lvl": 13,
-   "img": "🚗⚫",
-   "type": "emoji"
+   "img": "img/words/tire.jpg",
+   "type": "illustration",
+   "fallback": "🚗⚫"
   },
   {
    "en": "engine",
    "de": "der Motor",
    "cat": "car",
    "lvl": 13,
-   "img": "⚙️",
-   "type": "emoji"
+   "img": "img/words/engine.jpg",
+   "type": "illustration",
+   "fallback": "⚙️"
   },
   {
    "en": "gas station",
    "de": "die Tankstelle",
    "cat": "car",
    "lvl": 13,
-   "img": "⛽",
-   "type": "emoji"
+   "img": "img/words/gas_station.jpg",
+   "type": "illustration",
+   "fallback": "⛽"
   },
   {
    "en": "seatbelt",
    "de": "der Sicherheitsgurt",
    "cat": "car",
    "lvl": 13,
-   "img": "🦺",
-   "type": "emoji"
+   "img": "img/words/seatbelt.jpg",
+   "type": "illustration",
+   "fallback": "🦺"
   },
   {
    "en": "trunk",
    "de": "der Kofferraum",
    "cat": "car",
    "lvl": 13,
-   "img": "🧳",
-   "type": "emoji"
+   "img": "img/words/trunk.jpg",
+   "type": "illustration",
+   "fallback": "🧳"
   },
   {
    "en": "driver's license",
    "de": "der Führerschein",
    "cat": "car",
    "lvl": 13,
-   "img": "📜",
-   "type": "emoji"
+   "img": "img/words/driver_s_license.jpg",
+   "type": "illustration",
+   "fallback": "📜"
   },
   {
    "en": "traffic light",
    "de": "die Ampel",
    "cat": "car",
    "lvl": 13,
-   "img": "🚦",
-   "type": "emoji"
+   "img": "img/words/traffic_light.jpg",
+   "type": "illustration",
+   "fallback": "🚦"
   },
   {
    "en": "parking lot",
    "de": "der Parkplatz",
    "cat": "car",
    "lvl": 13,
-   "img": "🅿️",
-   "type": "emoji"
+   "img": "img/words/parking_lot.jpg",
+   "type": "illustration",
+   "fallback": "🅿️"
   },
   {
    "en": "to park",
    "de": "parken",
    "cat": "car",
    "lvl": 13,
-   "img": "🅿️",
-   "type": "emoji"
+   "img": "img/words/to_park.jpg",
+   "type": "illustration",
+   "fallback": "🅿️"
   },
   {
    "en": "airport",
    "de": "der Flughafen",
    "cat": "travel",
    "lvl": 14,
-   "img": "✈️",
-   "type": "emoji"
+   "img": "img/words/airport.jpg",
+   "type": "illustration",
+   "fallback": "✈️"
   },
   {
    "en": "passport",
    "de": "der Reisepass",
    "cat": "travel",
    "lvl": 14,
-   "img": "🛂",
-   "type": "emoji"
+   "img": "img/words/passport.jpg",
+   "type": "illustration",
+   "fallback": "🛂"
   },
   {
    "en": "ticket",
    "de": "das Ticket",
    "cat": "travel",
    "lvl": 14,
-   "img": "🎫",
-   "type": "emoji"
+   "img": "img/words/ticket.jpg",
+   "type": "illustration",
+   "fallback": "🎫"
   },
   {
    "en": "suitcase / luggage",
    "de": "der Koffer",
    "cat": "travel",
    "lvl": 14,
-   "img": "🧳",
-   "type": "emoji"
+   "img": "img/words/suitcase_luggage.jpg",
+   "type": "illustration",
+   "fallback": "🧳"
   },
   {
    "en": "hotel",
    "de": "das Hotel",
    "cat": "travel",
    "lvl": 14,
-   "img": "🏨",
-   "type": "emoji"
+   "img": "img/words/hotel.jpg",
+   "type": "illustration",
+   "fallback": "🏨"
   },
   {
    "en": "train station",
    "de": "der Bahnhof",
    "cat": "travel",
    "lvl": 14,
-   "img": "🚉",
-   "type": "emoji"
+   "img": "img/words/train_station.jpg",
+   "type": "illustration",
+   "fallback": "🚉"
   },
   {
    "en": "flight",
    "de": "der Flug",
    "cat": "travel",
    "lvl": 14,
-   "img": "🛫",
-   "type": "emoji"
+   "img": "img/words/flight.jpg",
+   "type": "illustration",
+   "fallback": "🛫"
   },
   {
    "en": "train",
    "de": "der Zug",
    "cat": "travel",
    "lvl": 14,
-   "img": "🚆",
-   "type": "emoji"
+   "img": "img/words/train.jpg",
+   "type": "illustration",
+   "fallback": "🚆"
   },
   {
    "en": "bus",
    "de": "der Bus",
    "cat": "travel",
    "lvl": 14,
-   "img": "🚌",
-   "type": "emoji"
+   "img": "img/words/bus.jpg",
+   "type": "illustration",
+   "fallback": "🚌"
   },
   {
    "en": "map",
    "de": "die Karte",
    "cat": "travel",
    "lvl": 14,
-   "img": "🗺️",
-   "type": "emoji"
+   "img": "img/words/map.jpg",
+   "type": "illustration",
+   "fallback": "🗺️"
   },
   {
    "en": "reservation",
    "de": "die Reservierung",
    "cat": "travel",
    "lvl": 14,
-   "img": "📅",
-   "type": "emoji"
+   "img": "img/words/reservation.jpg",
+   "type": "illustration",
+   "fallback": "📅"
   },
   {
    "en": "border",
    "de": "die Grenze",
    "cat": "travel",
    "lvl": 14,
-   "img": "🚧",
-   "type": "emoji"
+   "img": "img/words/border.jpg",
+   "type": "illustration",
+   "fallback": "🚧"
   },
   {
    "en": "tourist",
    "de": "der Tourist",
    "cat": "travel",
    "lvl": 14,
-   "img": "📸",
-   "type": "emoji"
+   "img": "img/words/tourist.jpg",
+   "type": "illustration",
+   "fallback": "📸"
   },
   {
    "en": "vacation",
    "de": "der Urlaub",
    "cat": "travel",
    "lvl": 14,
-   "img": "🏖️",
-   "type": "emoji"
+   "img": "img/words/vacation.jpg",
+   "type": "illustration",
+   "fallback": "🏖️"
   },
   {
    "en": "laptop",
    "de": "der Laptop",
    "cat": "computer",
    "lvl": 15,
-   "img": "💻",
-   "type": "emoji"
+   "img": "img/words/laptop.jpg",
+   "type": "illustration",
+   "fallback": "💻"
   },
   {
    "en": "mouse (computer)",
    "de": "die Maus",
    "cat": "computer",
    "lvl": 15,
-   "img": "🖱️",
-   "type": "emoji"
+   "img": "img/words/mouse_computer.jpg",
+   "type": "illustration",
+   "fallback": "🖱️"
   },
   {
    "en": "keyboard",
    "de": "die Tastatur",
    "cat": "computer",
    "lvl": 15,
-   "img": "⌨️",
-   "type": "emoji"
+   "img": "img/words/keyboard.jpg",
+   "type": "illustration",
+   "fallback": "⌨️"
   },
   {
    "en": "screen / monitor",
    "de": "der Bildschirm",
    "cat": "computer",
    "lvl": 15,
-   "img": "🖥️",
-   "type": "emoji"
+   "img": "img/words/screen_monitor.jpg",
+   "type": "illustration",
+   "fallback": "🖥️"
   },
   {
    "en": "internet",
    "de": "das Internet",
    "cat": "computer",
    "lvl": 15,
-   "img": "🌐",
-   "type": "emoji"
+   "img": "img/words/internet.jpg",
+   "type": "illustration",
+   "fallback": "🌐"
   },
   {
    "en": "wifi",
    "de": "das WLAN",
    "cat": "computer",
    "lvl": 15,
-   "img": "📶",
-   "type": "emoji"
+   "img": "img/words/wifi.jpg",
+   "type": "illustration",
+   "fallback": "📶"
   },
   {
    "en": "password",
    "de": "das Passwort",
    "cat": "computer",
    "lvl": 15,
-   "img": "🔑",
-   "type": "emoji"
+   "img": "img/words/password.jpg",
+   "type": "illustration",
+   "fallback": "🔑"
   },
   {
    "en": "file",
    "de": "die Datei",
    "cat": "computer",
    "lvl": 15,
-   "img": "📄",
-   "type": "emoji"
+   "img": "img/words/file.jpg",
+   "type": "illustration",
+   "fallback": "📄"
   },
   {
    "en": "folder",
    "de": "der Ordner",
    "cat": "computer",
    "lvl": 15,
-   "img": "📁",
-   "type": "emoji"
+   "img": "img/words/folder.jpg",
+   "type": "illustration",
+   "fallback": "📁"
   },
   {
    "en": "email",
    "de": "die E-Mail",
    "cat": "computer",
    "lvl": 15,
-   "img": "📧",
-   "type": "emoji"
+   "img": "img/words/email.jpg",
+   "type": "illustration",
+   "fallback": "📧"
   },
   {
    "en": "browser",
    "de": "der Browser",
    "cat": "computer",
    "lvl": 15,
-   "img": "🧭",
-   "type": "emoji"
+   "img": "img/words/browser.jpg",
+   "type": "illustration",
+   "fallback": "🧭"
   },
   {
    "en": "app / program",
    "de": "die App",
    "cat": "computer",
    "lvl": 15,
-   "img": "📱",
-   "type": "emoji"
+   "img": "img/words/app_program.jpg",
+   "type": "illustration",
+   "fallback": "📱"
   },
   {
    "en": "battery",
    "de": "der Akku",
    "cat": "computer",
    "lvl": 15,
-   "img": "🔋",
-   "type": "emoji"
+   "img": "img/words/battery.jpg",
+   "type": "illustration",
+   "fallback": "🔋"
   },
   {
    "en": "charger",
    "de": "das Ladekabel",
    "cat": "computer",
    "lvl": 15,
-   "img": "🔌",
-   "type": "emoji"
+   "img": "img/words/charger.jpg",
+   "type": "illustration",
+   "fallback": "🔌"
   },
   {
    "en": "USB stick",
    "de": "der USB-Stick",
    "cat": "computer",
    "lvl": 15,
-   "img": "💾",
-   "type": "emoji"
+   "img": "img/words/usb_stick.jpg",
+   "type": "illustration",
+   "fallback": "💾"
   },
   {
    "en": "to argue",
    "de": "streiten",
    "cat": "argue",
    "lvl": 16,
-   "img": "😡",
-   "type": "emoji"
+   "img": "img/words/to_argue.jpg",
+   "type": "illustration",
+   "fallback": "😡"
   },
   {
    "en": "to disagree",
    "de": "nicht zustimmen",
    "cat": "argue",
    "lvl": 16,
-   "img": "🙅",
-   "type": "emoji"
+   "img": "img/words/to_disagree.jpg",
+   "type": "illustration",
+   "fallback": "🙅"
   },
   {
    "en": "to agree",
    "de": "zustimmen",
    "cat": "argue",
    "lvl": 16,
-   "img": "🙆",
-   "type": "emoji"
+   "img": "img/words/to_agree.jpg",
+   "type": "illustration",
+   "fallback": "🙆"
   },
   {
    "en": "argument / fight",
    "de": "der Streit",
    "cat": "argue",
    "lvl": 16,
-   "img": "💢",
-   "type": "emoji"
+   "img": "img/words/argument_fight.jpg",
+   "type": "illustration",
+   "fallback": "💢"
   },
   {
    "en": "to shout / yell",
    "de": "schreien",
    "cat": "argue",
    "lvl": 16,
-   "img": "📢",
-   "type": "emoji"
+   "img": "img/words/to_shout_yell.jpg",
+   "type": "illustration",
+   "fallback": "📢"
   },
   {
    "en": "to complain",
    "de": "sich beschweren",
    "cat": "argue",
    "lvl": 16,
-   "img": "😤",
-   "type": "emoji"
+   "img": "img/words/to_complain.jpg",
+   "type": "illustration",
+   "fallback": "😤"
   },
   {
    "en": "to blame",
    "de": "beschuldigen",
    "cat": "argue",
    "lvl": 16,
-   "img": "👆",
-   "type": "emoji"
+   "img": "img/words/to_blame.jpg",
+   "type": "illustration",
+   "fallback": "👆"
   },
   {
    "en": "to forgive",
    "de": "verzeihen",
    "cat": "argue",
    "lvl": 16,
-   "img": "🕊️",
-   "type": "emoji"
+   "img": "img/words/to_forgive.jpg",
+   "type": "illustration",
+   "fallback": "🕊️"
   },
   {
    "en": "opinion",
    "de": "die Meinung",
    "cat": "argue",
    "lvl": 16,
-   "img": "💭",
-   "type": "emoji"
+   "img": "img/words/opinion.jpg",
+   "type": "illustration",
+   "fallback": "💭"
   },
   {
    "en": "to be right",
    "de": "Recht haben",
    "cat": "argue",
    "lvl": 16,
-   "img": "✅",
-   "type": "emoji"
+   "img": "img/words/to_be_right.jpg",
+   "type": "illustration",
+   "fallback": "✅"
   },
   {
    "en": "to be wrong",
    "de": "Unrecht haben",
    "cat": "argue",
    "lvl": 16,
-   "img": "❌",
-   "type": "emoji"
+   "img": "img/words/to_be_wrong.jpg",
+   "type": "illustration",
+   "fallback": "❌"
   },
   {
    "en": "peace",
    "de": "der Frieden",
    "cat": "argue",
    "lvl": 16,
-   "img": "☮️",
-   "type": "emoji"
+   "img": "img/words/peace.jpg",
+   "type": "illustration",
+   "fallback": "☮️"
   },
   {
    "en": "love (noun)",
    "de": "die Liebe",
    "cat": "love",
    "lvl": 17,
-   "img": "❤️",
-   "type": "emoji"
+   "img": "img/words/love_noun.jpg",
+   "type": "illustration",
+   "fallback": "❤️"
   },
   {
    "en": "to kiss",
    "de": "küssen",
    "cat": "love",
    "lvl": 17,
-   "img": "💋",
-   "type": "emoji"
+   "img": "img/words/to_kiss.jpg",
+   "type": "illustration",
+   "fallback": "💋"
   },
   {
    "en": "to hug",
    "de": "umarmen",
    "cat": "love",
    "lvl": 17,
-   "img": "🤗",
-   "type": "emoji"
+   "img": "img/words/to_hug.jpg",
+   "type": "illustration",
+   "fallback": "🤗"
   },
   {
    "en": "boyfriend",
    "de": "der Freund",
    "cat": "love",
    "lvl": 17,
-   "img": "🤴",
-   "type": "emoji"
+   "img": "img/words/boyfriend.jpg",
+   "type": "illustration",
+   "fallback": "🤴"
   },
   {
    "en": "girlfriend",
    "de": "die Freundin",
    "cat": "love",
    "lvl": 17,
-   "img": "👸",
-   "type": "emoji"
+   "img": "img/words/girlfriend.jpg",
+   "type": "illustration",
+   "fallback": "👸"
   },
   {
    "en": "marriage",
    "de": "die Ehe",
    "cat": "love",
    "lvl": 17,
-   "img": "💍",
-   "type": "emoji"
+   "img": "img/words/marriage.jpg",
+   "type": "illustration",
+   "fallback": "💍"
   },
   {
    "en": "to marry",
    "de": "heiraten",
    "cat": "love",
    "lvl": 17,
-   "img": "💒",
-   "type": "emoji"
+   "img": "img/words/to_marry.jpg",
+   "type": "illustration",
+   "fallback": "💒"
   },
   {
    "en": "heart",
    "de": "das Herz",
    "cat": "love",
    "lvl": 17,
-   "img": "💗",
-   "type": "emoji"
+   "img": "img/words/heart.jpg",
+   "type": "illustration",
+   "fallback": "💗"
   },
   {
    "en": "date (romantic)",
    "de": "das Date",
    "cat": "love",
    "lvl": 17,
-   "img": "🌹",
-   "type": "emoji"
+   "img": "img/words/date_romantic.jpg",
+   "type": "illustration",
+   "fallback": "🌹"
   },
   {
    "en": "relationship",
    "de": "die Beziehung",
    "cat": "love",
    "lvl": 17,
-   "img": "💞",
-   "type": "emoji"
+   "img": "img/words/relationship.jpg",
+   "type": "illustration",
+   "fallback": "💞"
   },
   {
    "en": "couple",
    "de": "das Paar",
    "cat": "love",
    "lvl": 17,
-   "img": "👫",
-   "type": "emoji"
+   "img": "img/words/couple.jpg",
+   "type": "illustration",
+   "fallback": "👫"
   },
   {
    "en": "to miss (someone)",
    "de": "vermissen",
    "cat": "love",
    "lvl": 17,
-   "img": "💔",
-   "type": "emoji"
+   "img": "img/words/to_miss_someone.jpg",
+   "type": "illustration",
+   "fallback": "💔"
   },
   {
    "en": "jealous",
    "de": "eifersüchtig",
    "cat": "love",
    "lvl": 17,
-   "img": "😒",
-   "type": "emoji"
+   "img": "img/words/jealous.jpg",
+   "type": "illustration",
+   "fallback": "😒"
   },
   {
    "en": "single",
    "de": "Single",
    "cat": "love",
    "lvl": 17,
-   "img": "🙋",
-   "type": "emoji"
+   "img": "img/words/single.jpg",
+   "type": "illustration",
+   "fallback": "🙋"
   },
   {
    "en": "head",
    "de": "der Kopf",
    "cat": "health",
    "lvl": 18,
-   "img": "👤",
-   "type": "emoji"
+   "img": "img/words/head.jpg",
+   "type": "illustration",
+   "fallback": "👤"
   },
   {
    "en": "hand",
    "de": "die Hand",
    "cat": "health",
    "lvl": 18,
-   "img": "✋",
-   "type": "emoji"
+   "img": "img/words/hand.jpg",
+   "type": "illustration",
+   "fallback": "✋"
   },
   {
    "en": "foot",
    "de": "der Fuß",
    "cat": "health",
    "lvl": 18,
-   "img": "🦶",
-   "type": "emoji"
+   "img": "img/words/foot.jpg",
+   "type": "illustration",
+   "fallback": "🦶"
   },
   {
    "en": "eye",
    "de": "das Auge",
    "cat": "health",
    "lvl": 18,
-   "img": "👁️",
-   "type": "emoji"
+   "img": "img/words/eye.jpg",
+   "type": "illustration",
+   "fallback": "👁️"
   },
   {
    "en": "ear",
    "de": "das Ohr",
    "cat": "health",
    "lvl": 18,
-   "img": "👂",
-   "type": "emoji"
+   "img": "img/words/ear.jpg",
+   "type": "illustration",
+   "fallback": "👂"
   },
   {
    "en": "mouth",
    "de": "der Mund",
    "cat": "health",
    "lvl": 18,
-   "img": "👄",
-   "type": "emoji"
+   "img": "img/words/mouth.jpg",
+   "type": "illustration",
+   "fallback": "👄"
   },
   {
    "en": "tooth",
    "de": "der Zahn",
    "cat": "health",
    "lvl": 18,
-   "img": "🦷",
-   "type": "emoji"
+   "img": "img/words/tooth.jpg",
+   "type": "illustration",
+   "fallback": "🦷"
   },
   {
    "en": "stomach / belly",
    "de": "der Bauch",
    "cat": "health",
    "lvl": 18,
-   "img": "🤰",
-   "type": "emoji"
+   "img": "img/words/stomach_belly.jpg",
+   "type": "illustration",
+   "fallback": "🤰"
   },
   {
    "en": "back",
    "de": "der Rücken",
    "cat": "health",
    "lvl": 18,
-   "img": "💆",
-   "type": "emoji"
+   "img": "img/words/back.jpg",
+   "type": "illustration",
+   "fallback": "💆"
   },
   {
    "en": "doctor",
    "de": "der Arzt",
    "cat": "health",
    "lvl": 18,
-   "img": "🩺",
-   "type": "emoji"
+   "img": "img/words/doctor.jpg",
+   "type": "illustration",
+   "fallback": "🩺"
   },
   {
    "en": "dentist",
    "de": "der Zahnarzt",
    "cat": "health",
    "lvl": 18,
-   "img": "😬",
-   "type": "emoji"
+   "img": "img/words/dentist.jpg",
+   "type": "illustration",
+   "fallback": "😬"
   },
   {
    "en": "pharmacy",
    "de": "die Apotheke",
    "cat": "health",
    "lvl": 18,
-   "img": "💊",
-   "type": "emoji"
+   "img": "img/words/pharmacy.jpg",
+   "type": "illustration",
+   "fallback": "💊"
   },
   {
    "en": "hospital",
    "de": "das Krankenhaus",
    "cat": "health",
    "lvl": 18,
-   "img": "🏥",
-   "type": "emoji"
+   "img": "img/words/hospital.jpg",
+   "type": "illustration",
+   "fallback": "🏥"
   },
   {
    "en": "pain",
    "de": "die Schmerzen",
    "cat": "health",
    "lvl": 18,
-   "img": "🤕",
-   "type": "emoji"
+   "img": "img/words/pain.jpg",
+   "type": "illustration",
+   "fallback": "🤕"
   },
   {
    "en": "headache",
    "de": "die Kopfschmerzen",
    "cat": "health",
    "lvl": 18,
-   "img": "🤯",
-   "type": "emoji"
+   "img": "img/words/headache.jpg",
+   "type": "illustration",
+   "fallback": "🤯"
   },
   {
    "en": "fever",
    "de": "das Fieber",
    "cat": "health",
    "lvl": 18,
-   "img": "🌡️",
-   "type": "emoji"
+   "img": "img/words/fever.jpg",
+   "type": "illustration",
+   "fallback": "🌡️"
   },
   {
    "en": "cold (illness)",
    "de": "die Erkältung",
    "cat": "health",
    "lvl": 18,
-   "img": "🤧",
-   "type": "emoji"
+   "img": "img/words/cold_illness.jpg",
+   "type": "illustration",
+   "fallback": "🤧"
   },
   {
    "en": "medicine",
    "de": "das Medikament",
    "cat": "health",
    "lvl": 18,
-   "img": "💉",
-   "type": "emoji"
+   "img": "img/words/medicine.jpg",
+   "type": "illustration",
+   "fallback": "💉"
   },
   {
    "en": "health insurance",
    "de": "die Krankenversicherung",
    "cat": "health",
    "lvl": 18,
-   "img": "📋",
-   "type": "emoji"
+   "img": "img/words/health_insurance.jpg",
+   "type": "illustration",
+   "fallback": "📋"
   },
   {
    "en": "emergency",
    "de": "der Notfall",
    "cat": "health",
    "lvl": 18,
-   "img": "🚨",
-   "type": "emoji"
+   "img": "img/words/emergency.jpg",
+   "type": "illustration",
+   "fallback": "🚨"
   },
   {
    "en": "supermarket",
    "de": "der Supermarkt",
    "cat": "places",
    "lvl": 19,
-   "img": "🛒",
-   "type": "emoji"
+   "img": "img/words/supermarket.jpg",
+   "type": "illustration",
+   "fallback": "🛒"
   },
   {
    "en": "bakery",
    "de": "die Bäckerei",
    "cat": "places",
    "lvl": 19,
-   "img": "🥐",
-   "type": "emoji"
+   "img": "img/words/bakery.jpg",
+   "type": "illustration",
+   "fallback": "🥐"
   },
   {
    "en": "bank",
    "de": "die Bank",
    "cat": "places",
    "lvl": 19,
-   "img": "🏦",
-   "type": "emoji"
+   "img": "img/words/bank.jpg",
+   "type": "illustration",
+   "fallback": "🏦"
   },
   {
    "en": "post office",
    "de": "die Post",
    "cat": "places",
    "lvl": 19,
-   "img": "📮",
-   "type": "emoji"
+   "img": "img/words/post_office.jpg",
+   "type": "illustration",
+   "fallback": "📮"
   },
   {
    "en": "school",
    "de": "die Schule",
    "cat": "places",
    "lvl": 19,
-   "img": "🏫",
-   "type": "emoji"
+   "img": "img/words/school.jpg",
+   "type": "illustration",
+   "fallback": "🏫"
   },
   {
    "en": "work / job",
    "de": "die Arbeit",
    "cat": "places",
    "lvl": 19,
-   "img": "💼",
-   "type": "emoji"
+   "img": "img/words/work_job.jpg",
+   "type": "illustration",
+   "fallback": "💼"
   },
   {
    "en": "restaurant",
    "de": "das Restaurant",
    "cat": "places",
    "lvl": 19,
-   "img": "🍽️",
-   "type": "emoji"
+   "img": "img/words/restaurant.jpg",
+   "type": "illustration",
+   "fallback": "🍽️"
   },
   {
    "en": "church",
    "de": "die Kirche",
    "cat": "places",
    "lvl": 19,
-   "img": "⛪",
-   "type": "emoji"
+   "img": "img/words/church.jpg",
+   "type": "illustration",
+   "fallback": "⛪"
   },
   {
    "en": "city / town",
    "de": "die Stadt",
    "cat": "places",
    "lvl": 19,
-   "img": "🏙️",
-   "type": "emoji"
+   "img": "img/words/city_town.jpg",
+   "type": "illustration",
+   "fallback": "🏙️"
   },
   {
    "en": "street",
    "de": "die Straße",
    "cat": "places",
    "lvl": 19,
-   "img": "🛣️",
-   "type": "emoji"
+   "img": "img/words/street.jpg",
+   "type": "illustration",
+   "fallback": "🛣️"
   },
   {
    "en": "apartment",
    "de": "die Wohnung",
    "cat": "places",
    "lvl": 19,
-   "img": "🏢",
-   "type": "emoji"
+   "img": "img/words/apartment.jpg",
+   "type": "illustration",
+   "fallback": "🏢"
   },
   {
    "en": "kitchen",
    "de": "die Küche",
    "cat": "places",
    "lvl": 19,
-   "img": "🍳",
-   "type": "emoji"
+   "img": "img/words/kitchen.jpg",
+   "type": "illustration",
+   "fallback": "🍳"
   },
   {
    "en": "bathroom",
    "de": "das Badezimmer",
    "cat": "places",
    "lvl": 19,
-   "img": "🛁",
-   "type": "emoji"
+   "img": "img/words/bathroom.jpg",
+   "type": "illustration",
+   "fallback": "🛁"
   },
   {
    "en": "toilet",
    "de": "die Toilette",
    "cat": "places",
    "lvl": 19,
-   "img": "🚽",
-   "type": "emoji"
+   "img": "img/words/toilet.jpg",
+   "type": "illustration",
+   "fallback": "🚽"
   },
   {
    "en": "park",
    "de": "der Park",
    "cat": "places",
    "lvl": 19,
-   "img": "🌳",
-   "type": "emoji"
+   "img": "img/words/park.jpg",
+   "type": "illustration",
+   "fallback": "🌳"
   },
   {
    "en": "playground",
    "de": "der Spielplatz",
    "cat": "places",
    "lvl": 19,
-   "img": "🎠",
-   "type": "emoji"
+   "img": "img/words/playground.jpg",
+   "type": "illustration",
+   "fallback": "🎠"
   },
   {
    "en": "gym",
    "de": "das Fitnessstudio",
    "cat": "places",
    "lvl": 19,
-   "img": "🏋️",
-   "type": "emoji"
+   "img": "img/words/gym.jpg",
+   "type": "illustration",
+   "fallback": "🏋️"
   },
   {
    "en": "hairdresser",
    "de": "der Friseur",
    "cat": "places",
    "lvl": 19,
-   "img": "💇",
-   "type": "emoji"
+   "img": "img/words/hairdresser.jpg",
+   "type": "illustration",
+   "fallback": "💇"
   },
   {
    "en": "town hall / registry",
    "de": "das Rathaus",
    "cat": "places",
    "lvl": 19,
-   "img": "🏛️",
-   "type": "emoji"
+   "img": "img/words/town_hall_registry.jpg",
+   "type": "illustration",
+   "fallback": "🏛️"
   },
   {
    "en": "appointment",
    "de": "der Termin",
    "cat": "places",
    "lvl": 19,
-   "img": "📆",
-   "type": "emoji"
+   "img": "img/words/appointment.jpg",
+   "type": "illustration",
+   "fallback": "📆"
   },
   {
    "en": "time",
    "de": "die Zeit",
    "cat": "time",
    "lvl": 20,
-   "img": "⏰",
-   "type": "emoji"
+   "img": "img/words/time.jpg",
+   "type": "illustration",
+   "fallback": "⏰"
   },
   {
    "en": "hour",
    "de": "die Stunde",
    "cat": "time",
    "lvl": 20,
-   "img": "🕐",
-   "type": "emoji"
+   "img": "img/words/hour.jpg",
+   "type": "illustration",
+   "fallback": "🕐"
   },
   {
    "en": "minute",
    "de": "die Minute",
    "cat": "time",
    "lvl": 20,
-   "img": "⏱️",
-   "type": "emoji"
+   "img": "img/words/minute.jpg",
+   "type": "illustration",
+   "fallback": "⏱️"
   },
   {
    "en": "week",
    "de": "die Woche",
    "cat": "time",
    "lvl": 20,
-   "img": "🗓️",
-   "type": "emoji"
+   "img": "img/words/week.jpg",
+   "type": "illustration",
+   "fallback": "🗓️"
   },
   {
    "en": "month",
    "de": "der Monat",
    "cat": "time",
    "lvl": 20,
-   "img": "🌕",
-   "type": "emoji"
+   "img": "img/words/month.jpg",
+   "type": "illustration",
+   "fallback": "🌕"
   },
   {
    "en": "year",
    "de": "das Jahr",
    "cat": "time",
    "lvl": 20,
-   "img": "🎇",
-   "type": "emoji"
+   "img": "img/words/year.jpg",
+   "type": "illustration",
+   "fallback": "🎇"
   },
   {
    "en": "morning",
    "de": "der Morgen",
    "cat": "time",
    "lvl": 20,
-   "img": "🌅",
-   "type": "emoji"
+   "img": "img/words/morning.jpg",
+   "type": "illustration",
+   "fallback": "🌅"
   },
   {
    "en": "noon / midday",
    "de": "der Mittag",
    "cat": "time",
    "lvl": 20,
-   "img": "🕛",
-   "type": "emoji"
+   "img": "img/words/noon_midday.jpg",
+   "type": "illustration",
+   "fallback": "🕛"
   },
   {
    "en": "evening",
    "de": "der Abend",
    "cat": "time",
    "lvl": 20,
-   "img": "🌆",
-   "type": "emoji"
+   "img": "img/words/evening.jpg",
+   "type": "illustration",
+   "fallback": "🌆"
   },
   {
    "en": "night",
    "de": "die Nacht",
    "cat": "time",
    "lvl": 20,
-   "img": "🌃",
-   "type": "emoji"
+   "img": "img/words/night.jpg",
+   "type": "illustration",
+   "fallback": "🌃"
   },
   {
    "en": "now",
    "de": "jetzt",
    "cat": "time",
    "lvl": 20,
-   "img": "🔴",
-   "type": "emoji"
+   "img": "img/words/now.jpg",
+   "type": "illustration",
+   "fallback": "🔴"
   },
   {
    "en": "later",
    "de": "später",
    "cat": "time",
    "lvl": 20,
-   "img": "⏭️",
-   "type": "emoji"
+   "img": "img/words/later.jpg",
+   "type": "illustration",
+   "fallback": "⏭️"
   },
   {
    "en": "early",
    "de": "früh",
    "cat": "time",
    "lvl": 20,
-   "img": "🐓",
-   "type": "emoji"
+   "img": "img/words/early.jpg",
+   "type": "illustration",
+   "fallback": "🐓"
   },
   {
    "en": "late",
    "de": "spät",
    "cat": "time",
    "lvl": 20,
-   "img": "🦉",
-   "type": "emoji"
+   "img": "img/words/late.jpg",
+   "type": "illustration",
+   "fallback": "🦉"
   },
   {
    "en": "weekend",
    "de": "das Wochenende",
    "cat": "time",
    "lvl": 20,
-   "img": "🎉",
-   "type": "emoji"
+   "img": "img/words/weekend.jpg",
+   "type": "illustration",
+   "fallback": "🎉"
   },
   {
    "en": "breakfast",
    "de": "das Frühstück",
    "cat": "time",
    "lvl": 20,
-   "img": "🥐",
-   "type": "emoji"
+   "img": "img/words/breakfast.jpg",
+   "type": "illustration",
+   "fallback": "🥐"
   },
   {
    "en": "lunch",
    "de": "das Mittagessen",
    "cat": "time",
    "lvl": 20,
-   "img": "🥪",
-   "type": "emoji"
+   "img": "img/words/lunch.jpg",
+   "type": "illustration",
+   "fallback": "🥪"
   },
   {
    "en": "dinner",
    "de": "das Abendessen",
    "cat": "time",
    "lvl": 20,
-   "img": "🍲",
-   "type": "emoji"
+   "img": "img/words/dinner.jpg",
+   "type": "illustration",
+   "fallback": "🍲"
   },
   {
    "en": "what time is it?",
    "de": "wie spät ist es?",
    "cat": "time",
    "lvl": 20,
-   "img": "🕰️",
-   "type": "emoji"
+   "img": "img/words/what_time_is_it.jpg",
+   "type": "illustration",
+   "fallback": "🕰️"
   },
   {
    "en": "weather",
    "de": "das Wetter",
    "cat": "weather",
    "lvl": 21,
-   "img": "🌤️",
-   "type": "emoji"
+   "img": "img/words/weather.jpg",
+   "type": "illustration",
+   "fallback": "🌤️"
   },
   {
    "en": "rain",
    "de": "der Regen",
    "cat": "weather",
    "lvl": 21,
-   "img": "🌧️",
-   "type": "emoji"
+   "img": "img/words/rain.jpg",
+   "type": "illustration",
+   "fallback": "🌧️"
   },
   {
    "en": "snow",
    "de": "der Schnee",
    "cat": "weather",
    "lvl": 21,
-   "img": "🌨️",
-   "type": "emoji"
+   "img": "img/words/snow.jpg",
+   "type": "illustration",
+   "fallback": "🌨️"
   },
   {
    "en": "wind",
    "de": "der Wind",
    "cat": "weather",
    "lvl": 21,
-   "img": "🌬️",
-   "type": "emoji"
+   "img": "img/words/wind.jpg",
+   "type": "illustration",
+   "fallback": "🌬️"
   },
   {
    "en": "storm",
    "de": "der Sturm",
    "cat": "weather",
    "lvl": 21,
-   "img": "⛈️",
-   "type": "emoji"
+   "img": "img/words/storm.jpg",
+   "type": "illustration",
+   "fallback": "⛈️"
   },
   {
    "en": "fog",
    "de": "der Nebel",
    "cat": "weather",
    "lvl": 21,
-   "img": "🌫️",
-   "type": "emoji"
+   "img": "img/words/fog.jpg",
+   "type": "illustration",
+   "fallback": "🌫️"
   },
   {
    "en": "ice",
    "de": "das Eis",
    "cat": "weather",
    "lvl": 21,
-   "img": "🧊",
-   "type": "emoji"
+   "img": "img/words/ice.jpg",
+   "type": "illustration",
+   "fallback": "🧊"
   },
   {
    "en": "it's raining",
    "de": "es regnet",
    "cat": "weather",
    "lvl": 21,
-   "img": "☔",
-   "type": "emoji"
+   "img": "img/words/it_s_raining.jpg",
+   "type": "illustration",
+   "fallback": "☔"
   },
   {
    "en": "it's sunny",
    "de": "es ist sonnig",
    "cat": "weather",
    "lvl": 21,
-   "img": "😎",
-   "type": "emoji"
+   "img": "img/words/it_s_sunny.jpg",
+   "type": "illustration",
+   "fallback": "😎"
   },
   {
    "en": "it's cold",
    "de": "es ist kalt",
    "cat": "weather",
    "lvl": 21,
-   "img": "🥶",
-   "type": "emoji"
+   "img": "img/words/it_s_cold.jpg",
+   "type": "illustration",
+   "fallback": "🥶"
   },
   {
    "en": "it's warm",
    "de": "es ist warm",
    "cat": "weather",
    "lvl": 21,
-   "img": "🥵",
-   "type": "emoji"
+   "img": "img/words/it_s_warm.jpg",
+   "type": "illustration",
+   "fallback": "🥵"
   },
   {
    "en": "spring",
    "de": "der Frühling",
    "cat": "weather",
    "lvl": 21,
-   "img": "🌷",
-   "type": "emoji"
+   "img": "img/words/spring.jpg",
+   "type": "illustration",
+   "fallback": "🌷"
   },
   {
    "en": "summer",
    "de": "der Sommer",
    "cat": "weather",
    "lvl": 21,
-   "img": "🏖️",
-   "type": "emoji"
+   "img": "img/words/summer.jpg",
+   "type": "illustration",
+   "fallback": "🏖️"
   },
   {
    "en": "autumn",
    "de": "der Herbst",
    "cat": "weather",
    "lvl": 21,
-   "img": "🍁",
-   "type": "emoji"
+   "img": "img/words/autumn.jpg",
+   "type": "illustration",
+   "fallback": "🍁"
   },
   {
    "en": "winter",
    "de": "der Winter",
    "cat": "weather",
    "lvl": 21,
-   "img": "☃️",
-   "type": "emoji"
+   "img": "img/words/winter.jpg",
+   "type": "illustration",
+   "fallback": "☃️"
   },
   {
    "en": "and",
@@ -4511,232 +4978,477 @@
    "de": "die Pause",
    "cat": "daily",
    "lvl": 23,
-   "img": "☕",
-   "type": "emoji"
+   "img": "img/words/break_at_work.jpg",
+   "type": "illustration",
+   "fallback": "☕"
   },
   {
    "en": "end of the workday",
    "de": "der Feierabend",
    "cat": "daily",
    "lvl": 23,
-   "img": "🕔🎉",
-   "type": "emoji"
+   "img": "img/words/end_of_the_workday.jpg",
+   "type": "illustration",
+   "fallback": "🕔🎉"
   },
   {
    "en": "boss",
    "de": "der Chef",
    "cat": "daily",
    "lvl": 23,
-   "img": "👔",
-   "type": "emoji"
+   "img": "img/words/boss.jpg",
+   "type": "illustration",
+   "fallback": "👔"
   },
   {
    "en": "colleague",
    "de": "der Kollege",
    "cat": "daily",
    "lvl": 23,
-   "img": "👥",
-   "type": "emoji"
+   "img": "img/words/colleague.jpg",
+   "type": "illustration",
+   "fallback": "👥"
   },
   {
    "en": "office",
    "de": "das Büro",
    "cat": "daily",
    "lvl": 23,
-   "img": "🏢💼",
-   "type": "emoji"
+   "img": "img/words/office.jpg",
+   "type": "illustration",
+   "fallback": "🏢💼"
   },
   {
    "en": "salary",
    "de": "das Gehalt",
    "cat": "daily",
    "lvl": 23,
-   "img": "💶📅",
-   "type": "emoji"
+   "img": "img/words/salary.jpg",
+   "type": "illustration",
+   "fallback": "💶📅"
   },
   {
    "en": "trash / garbage",
    "de": "der Müll",
    "cat": "daily",
    "lvl": 23,
-   "img": "🗑️",
-   "type": "emoji"
+   "img": "img/words/trash_garbage.jpg",
+   "type": "illustration",
+   "fallback": "🗑️"
   },
   {
    "en": "laundry",
    "de": "die Wäsche",
    "cat": "daily",
    "lvl": 23,
-   "img": "🧺",
-   "type": "emoji"
+   "img": "img/words/laundry.jpg",
+   "type": "illustration",
+   "fallback": "🧺"
   },
   {
    "en": "to go shopping",
    "de": "einkaufen",
    "cat": "daily",
    "lvl": 23,
-   "img": "🛒",
-   "type": "emoji"
+   "img": "img/words/to_go_shopping.jpg",
+   "type": "illustration",
+   "fallback": "🛒"
   },
   {
    "en": "bill / invoice",
    "de": "die Rechnung",
    "cat": "daily",
    "lvl": 23,
-   "img": "🧾",
-   "type": "emoji"
+   "img": "img/words/bill_invoice.jpg",
+   "type": "illustration",
+   "fallback": "🧾"
   },
   {
    "en": "rent",
    "de": "die Miete",
    "cat": "daily",
    "lvl": 23,
-   "img": "🏠💶",
-   "type": "emoji"
+   "img": "img/words/rent.jpg",
+   "type": "illustration",
+   "fallback": "🏠💶"
   },
   {
    "en": "neighbor",
    "de": "der Nachbar",
    "cat": "daily",
    "lvl": 23,
-   "img": "🏘️",
-   "type": "emoji"
+   "img": "img/words/neighbor.jpg",
+   "type": "illustration",
+   "fallback": "🏘️"
   },
   {
    "en": "cash",
    "de": "das Bargeld",
    "cat": "daily",
    "lvl": 23,
-   "img": "💵",
-   "type": "emoji"
+   "img": "img/words/cash.jpg",
+   "type": "illustration",
+   "fallback": "💵"
   },
   {
    "en": "ID card",
    "de": "der Ausweis",
    "cat": "daily",
    "lvl": 23,
-   "img": "🆔",
-   "type": "emoji"
+   "img": "img/words/id_card.jpg",
+   "type": "illustration",
+   "fallback": "🆔"
   },
   {
    "en": "form (paperwork)",
    "de": "das Formular",
    "cat": "daily",
    "lvl": 23,
-   "img": "📝",
-   "type": "emoji"
+   "img": "img/words/form_paperwork.jpg",
+   "type": "illustration",
+   "fallback": "📝"
   },
   {
    "en": "to sign",
    "de": "unterschreiben",
    "cat": "daily",
    "lvl": 23,
-   "img": "✍️",
-   "type": "emoji"
+   "img": "img/words/to_sign.jpg",
+   "type": "illustration",
+   "fallback": "✍️"
   },
   {
    "en": "to register (officially)",
    "de": "sich anmelden",
    "cat": "daily",
    "lvl": 23,
-   "img": "🏛️✍️",
-   "type": "emoji"
+   "img": "img/words/to_register_officially.jpg",
+   "type": "illustration",
+   "fallback": "🏛️✍️"
   },
   {
    "en": "contract",
    "de": "der Vertrag",
    "cat": "daily",
    "lvl": 23,
-   "img": "📜",
-   "type": "emoji"
+   "img": "img/words/contract.jpg",
+   "type": "illustration",
+   "fallback": "📜"
   },
   {
    "en": "to cancel (a contract)",
    "de": "kündigen",
    "cat": "daily",
    "lvl": 23,
-   "img": "📄✂️",
-   "type": "emoji"
+   "img": "img/words/to_cancel_a_contract.jpg",
+   "type": "illustration",
+   "fallback": "📄✂️"
   },
   {
    "en": "to pick up (a package)",
    "de": "abholen",
    "cat": "daily",
    "lvl": 23,
-   "img": "🚶📦",
-   "type": "emoji"
+   "img": "img/words/to_pick_up_a_package.jpg",
+   "type": "illustration",
+   "fallback": "🚶📦"
   },
   {
    "en": "delivery",
    "de": "die Lieferung",
    "cat": "daily",
    "lvl": 23,
-   "img": "🚚📦",
-   "type": "emoji"
+   "img": "img/words/delivery.jpg",
+   "type": "illustration",
+   "fallback": "🚚📦"
   },
   {
    "en": "broken",
    "de": "kaputt",
    "cat": "daily",
    "lvl": 23,
-   "img": "📱💥",
-   "type": "emoji"
+   "img": "img/words/broken.jpg",
+   "type": "illustration",
+   "fallback": "📱💥"
   },
   {
    "en": "on time / punctual",
    "de": "pünktlich",
    "cat": "daily",
    "lvl": 23,
-   "img": "⏰✅",
-   "type": "emoji"
+   "img": "img/words/on_time_punctual.jpg",
+   "type": "illustration",
+   "fallback": "⏰✅"
   },
   {
    "en": "delay",
    "de": "die Verspätung",
    "cat": "daily",
    "lvl": 23,
-   "img": "🚆⏰",
-   "type": "emoji"
+   "img": "img/words/delay.jpg",
+   "type": "illustration",
+   "fallback": "🚆⏰"
   },
   {
    "en": "occupied / taken",
    "de": "besetzt",
    "cat": "daily",
    "lvl": 23,
-   "img": "🪑🚫",
-   "type": "emoji"
+   "img": "img/words/occupied_taken.jpg",
+   "type": "illustration",
+   "fallback": "🪑🚫"
   },
   {
    "en": "free / available",
    "de": "frei",
    "cat": "daily",
    "lvl": 23,
-   "img": "🪑✅",
-   "type": "emoji"
+   "img": "img/words/free_available.jpg",
+   "type": "illustration",
+   "fallback": "🪑✅"
   },
   {
    "en": "entrance",
    "de": "der Eingang",
    "cat": "daily",
    "lvl": 23,
-   "img": "➡️🚪",
-   "type": "emoji"
+   "img": "img/words/entrance.jpg",
+   "type": "illustration",
+   "fallback": "➡️🚪"
   },
   {
    "en": "exit",
    "de": "der Ausgang",
    "cat": "daily",
    "lvl": 23,
-   "img": "🏃🚪",
-   "type": "emoji"
+   "img": "img/words/exit.jpg",
+   "type": "illustration",
+   "fallback": "🏃🚪"
   },
   {
    "en": "heating",
    "de": "die Heizung",
    "cat": "daily",
    "lvl": 23,
-   "img": "♨️",
-   "type": "emoji"
+   "img": "img/words/heating.jpg",
+   "type": "illustration",
+   "fallback": "♨️"
+  },
+  {
+   "en": "to rent (take)",
+   "de": "mieten",
+   "cat": "renting",
+   "lvl": 24,
+   "img": "img/words/to_rent_take.jpg",
+   "type": "illustration",
+   "fallback": "🔑"
+  },
+  {
+   "en": "to rent out (let)",
+   "de": "vermieten",
+   "cat": "renting",
+   "lvl": 24,
+   "img": "img/words/to_rent_out.jpg",
+   "type": "illustration",
+   "fallback": "🏠"
+  },
+  {
+   "en": "landlord",
+   "de": "der Vermieter",
+   "cat": "renting",
+   "lvl": 24,
+   "img": "img/words/landlord.jpg",
+   "type": "illustration",
+   "fallback": "🧑‍💼"
+  },
+  {
+   "en": "tenant",
+   "de": "der Mieter",
+   "cat": "renting",
+   "lvl": 24,
+   "img": "img/words/tenant.jpg",
+   "type": "illustration",
+   "fallback": "🧑"
+  },
+  {
+   "en": "apartment / flat",
+   "de": "die Wohnung",
+   "cat": "renting",
+   "lvl": 24,
+   "img": "img/words/apartment_flat.jpg",
+   "type": "illustration",
+   "fallback": "🏢"
+  },
+  {
+   "en": "rental contract / lease",
+   "de": "der Mietvertrag",
+   "cat": "renting",
+   "lvl": 24,
+   "img": "img/words/rental_contract.jpg",
+   "type": "illustration",
+   "fallback": "📄"
+  },
+  {
+   "en": "deposit",
+   "de": "die Kaution",
+   "cat": "renting",
+   "lvl": 24,
+   "img": "img/words/rent_deposit.jpg",
+   "type": "illustration",
+   "fallback": "💰"
+  },
+  {
+   "en": "cold rent (base)",
+   "de": "die Kaltmiete",
+   "cat": "renting",
+   "lvl": 24,
+   "img": "img/words/cold_rent.jpg",
+   "type": "illustration",
+   "fallback": "❄️"
+  },
+  {
+   "en": "warm rent (incl. bills)",
+   "de": "die Warmmiete",
+   "cat": "renting",
+   "lvl": 24,
+   "img": "img/words/warm_rent.jpg",
+   "type": "illustration",
+   "fallback": "🔥"
+  },
+  {
+   "en": "extra costs / utilities",
+   "de": "die Nebenkosten",
+   "cat": "renting",
+   "lvl": 24,
+   "img": "img/words/utilities_costs.jpg",
+   "type": "illustration",
+   "fallback": "💡"
+  },
+  {
+   "en": "apartment viewing",
+   "de": "die Besichtigung",
+   "cat": "renting",
+   "lvl": 24,
+   "img": "img/words/apartment_viewing.jpg",
+   "type": "illustration",
+   "fallback": "🔍"
+  },
+  {
+   "en": "furnished",
+   "de": "möbliert",
+   "cat": "renting",
+   "lvl": 24,
+   "img": "img/words/furnished.jpg",
+   "type": "illustration",
+   "fallback": "🛋️"
+  },
+  {
+   "en": "unfurnished",
+   "de": "unmöbliert",
+   "cat": "renting",
+   "lvl": 24,
+   "img": "img/words/unfurnished.jpg",
+   "type": "illustration",
+   "fallback": "📦"
+  },
+  {
+   "en": "square meters",
+   "de": "die Quadratmeter",
+   "cat": "renting",
+   "lvl": 24,
+   "img": "img/words/square_meters.jpg",
+   "type": "illustration",
+   "fallback": "📐"
+  },
+  {
+   "en": "room",
+   "de": "das Zimmer",
+   "cat": "renting",
+   "lvl": 24,
+   "img": "img/words/room.jpg",
+   "type": "illustration",
+   "fallback": "🚪"
+  },
+  {
+   "en": "to move in",
+   "de": "einziehen",
+   "cat": "renting",
+   "lvl": 24,
+   "img": "img/words/to_move_in.jpg",
+   "type": "illustration",
+   "fallback": "📥"
+  },
+  {
+   "en": "to move out",
+   "de": "ausziehen",
+   "cat": "renting",
+   "lvl": 24,
+   "img": "img/words/to_move_out.jpg",
+   "type": "illustration",
+   "fallback": "📤"
+  },
+  {
+   "en": "to give notice / terminate",
+   "de": "kündigen",
+   "cat": "renting",
+   "lvl": 24,
+   "img": "img/words/to_give_notice.jpg",
+   "type": "illustration",
+   "fallback": "✋"
+  },
+  {
+   "en": "notice period",
+   "de": "die Kündigungsfrist",
+   "cat": "renting",
+   "lvl": 24,
+   "img": "img/words/notice_period.jpg",
+   "type": "illustration",
+   "fallback": "⏳"
+  },
+  {
+   "en": "shared flat (WG)",
+   "de": "die WG",
+   "cat": "renting",
+   "lvl": 24,
+   "img": "img/words/shared_flat.jpg",
+   "type": "illustration",
+   "fallback": "👥"
+  },
+  {
+   "en": "caretaker / janitor",
+   "de": "der Hausmeister",
+   "cat": "renting",
+   "lvl": 24,
+   "img": "img/words/caretaker.jpg",
+   "type": "illustration",
+   "fallback": "🧰"
+  },
+  {
+   "en": "balcony",
+   "de": "der Balkon",
+   "cat": "renting",
+   "lvl": 24,
+   "img": "img/words/balcony.jpg",
+   "type": "illustration",
+   "fallback": "🪴"
+  },
+  {
+   "en": "floor / storey",
+   "de": "das Stockwerk",
+   "cat": "renting",
+   "lvl": 24,
+   "img": "img/words/floor_storey.jpg",
+   "type": "illustration",
+   "fallback": "🏢"
+  },
+  {
+   "en": "key handover",
+   "de": "die Schlüsselübergabe",
+   "cat": "renting",
+   "lvl": 24,
+   "img": "img/words/key_handover.jpg",
+   "type": "illustration",
+   "fallback": "🤝🔑"
   }
  ]
 }

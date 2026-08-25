@@ -33,13 +33,15 @@ class Word {
   final String cat;
   final String img;
   final String type;
+  final String? fallback;
 
   Word.fromJson(Map<String, dynamic> j)
       : en = j['en'],
         de = j['de'],
         cat = j['cat'],
         img = j['img'],
-        type = j['type'];
+        type = j['type'],
+        fallback = j['fallback'];
 }
 
 class FlashcardsApp extends StatelessWidget {
@@ -302,6 +304,29 @@ class _HomePageState extends State<HomePage> {
           fontSize: w.img.length > 3 ? 30 : 44,
           fontWeight: FontWeight.w700,
           color: accent,
+        ),
+      );
+    }
+    if (w.type == 'illustration') {
+      return Container(
+        width: 64,
+        height: 64,
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(12),
+          border: Border.all(color: Colors.white24, width: 2),
+        ),
+        clipBehavior: Clip.antiAlias,
+        child: Image.asset(
+          'assets/${w.img}',
+          fit: BoxFit.contain,
+          errorBuilder: (context, error, stackTrace) => Center(
+            child: Text(
+              w.fallback ?? '',
+              textAlign: TextAlign.center,
+              style: TextStyle(fontSize: (w.fallback?.runes.length ?? 0) > 2 ? 22 : 34),
+            ),
+          ),
         ),
       );
     }

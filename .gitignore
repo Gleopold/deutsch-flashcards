@@ -1,0 +1,14 @@
+# Windows / WSL cruft
+*:Zone.Identifier
+__pycache__/
+*.pyc
+
+# Zip archives (source dumps, not part of the app)
+*.zip
+
+# Local deploy helper (may contain host-specific config)
+deploy.sh
+
+# Python venvs
+venv/
+.venv/

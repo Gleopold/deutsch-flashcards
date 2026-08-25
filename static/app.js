@@ -7,7 +7,14 @@ let page = 0;
 let germanVoice = null;
 let quizMode = false;
 let autoHide = false;
+let audioManifest = {};
 const revealed = new Set();
+const audioCache = new Map();
+
+fetch("/static/audio/manifest.json")
+  .then(r => r.ok ? r.json() : {})
+  .then(m => { audioManifest = m; })
+  .catch(() => {});
 
 const categoryBarEl = document.getElementById("category-bar");
 const gridEl = document.getElementById("grid");
@@ -71,6 +78,19 @@ function graphemeCount(str) {
   return [...str].length;
 }
 
+function escapeAttr(str) {
+  return String(str).replace(/&/g, "&amp;").replace(/"/g, "&quot;");
+}
+
+function handleIllusError(img) {
+  const emoji = img.dataset.fallback || "";
+  const div = document.createElement("div");
+  div.className = graphemeCount(emoji) > 1 ? "emoji emoji-multi" : "emoji";
+  div.textContent = emoji;
+  img.replaceWith(div);
+}
+window.handleIllusError = handleIllusError;
+
 function renderMedia(w) {
   if (w.type === "color") {
     return `<div class="swatch" style="background:${w.img}"></div>`;
@@ -78,6 +98,9 @@ function renderMedia(w) {
   if (w.type === "number") {
     const cls = w.img.length > 3 ? "numeral numeral-sm" : "numeral";
     return `<div class="${cls}">${w.img}</div>`;
+  }
+  if (w.type === "illustration") {
+    return `<div class="illus"><img src="/static/${w.img}" alt="${escapeAttr(w.en)}" loading="lazy" data-fallback="${escapeAttr(w.fallback || "")}" onerror="handleIllusError(this)"></div>`;
   }
   const cls = graphemeCount(w.img) > 1 ? "emoji emoji-multi" : "emoji";
   return `<div class="${cls}">${w.img}</div>`;
@@ -128,10 +151,9 @@ function renderGrid() {
     : (pages <= 1 ? deck.length + " words" : "page " + (page + 1) + " / " + pages);
 }
 
-function speak(text, cell) {
+function speakWithBrowserTts(text, cell) {
   if (!("speechSynthesis" in window)) return;
   window.speechSynthesis.cancel();
-  document.querySelectorAll(".flash-cell.speaking").forEach(c => c.classList.remove("speaking"));
   const utter = new SpeechSynthesisUtterance(text);
   utter.lang = "de-DE";
   utter.rate = 0.85;
@@ -142,6 +164,28 @@ function speak(text, cell) {
     utter.onerror = () => cell.classList.remove("speaking");
   }
   window.speechSynthesis.speak(utter);
+}
+
+function speak(text, cell) {
+  document.querySelectorAll(".flash-cell.speaking").forEach(c => c.classList.remove("speaking"));
+
+  const fname = audioManifest[text];
+  if (fname) {
+    let audio = audioCache.get(fname);
+    if (!audio) {
+      audio = new Audio("/static/audio/" + fname);
+      audioCache.set(fname, audio);
+    }
+    audio.currentTime = 0;
+    if (cell) {
+      cell.classList.add("speaking");
+      audio.onended = () => cell.classList.remove("speaking");
+    }
+    audio.play().catch(() => speakWithBrowserTts(text, cell));
+    return;
+  }
+
+  speakWithBrowserTts(text, cell);
 }
 
 quizToggleEl.onclick = () => {
