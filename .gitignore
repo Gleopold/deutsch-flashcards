@@ -12,3 +12,6 @@ deploy.sh
 # Python venvs
 venv/
 .venv/
+data/
+tools/out_klein/
+tools/image_check.json

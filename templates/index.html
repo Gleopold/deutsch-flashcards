@@ -3,8 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- The page is already dark: stop browser night modes (Brave/Dark Reader)
+     from recolouring it, which turned the white swatch black. -->
+<meta name="color-scheme" content="dark">
+<meta name="darkreader-lock">
 <title>Deutsch Flashcards</title>
-<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<link rel="stylesheet" href="static/style.css">
 </head>
 <body>
 <div id="floating-controls" class="hidden">
@@ -15,7 +19,20 @@
 <div class="wrap">
   <header class="app-header">
     <h1>Deutsch<span>Flashcards</span></h1>
+    <button id="reports-toggle" class="cat-btn">&#9873; reported <span id="reports-count">0</span></button>
   </header>
+
+  <section id="reports-panel" class="hidden">
+    <div class="reports-head">
+      <strong>Reported pictures</strong>
+      <div class="reports-actions">
+        <button id="export-json" class="cat-btn">export JSON</button>
+        <button id="export-csv" class="cat-btn">export CSV</button>
+        <button id="reports-clear" class="cat-btn danger">clear all</button>
+      </div>
+    </div>
+    <ul id="reports-list"></ul>
+  </section>
 
   <div id="category-bar"></div>
 
@@ -35,7 +52,8 @@
   </div>
 </div>
 
-<script src="{{ url_for('static', filename='words.js') }}"></script>
-<script src="{{ url_for('static', filename='app.js') }}"></script>
+<script src="static/words.js"></script>
+<script src="static/frequency.js"></script>
+<script src="static/app.js"></script>
 </body>
 </html>

@@ -62,7 +62,8 @@ print(f"[setup] {already_done}/{total} already done. Generating {len(pending)} r
 # Strategy: quantize transformer to int8 (~8.5 GB) so it fits in VRAM alongside
 # CLIP + VAE. T5-XXL (10 GB fp16) stays on CPU — text encoding is fast there.
 print(f"[setup] Loading {MODEL_ID} ...")
-pipe = FluxPipeline.from_pretrained(MODEL_ID, dtype=torch.float16)
+# bfloat16, not float16: FLUX overflows in fp16 and outputs all-black images.
+pipe = FluxPipeline.from_pretrained(MODEL_ID, dtype=torch.bfloat16)
 
 # Quantize transformer to int8 (~8.5 GB) so it fits in VRAM during denoising.
 # cpu_offload then swaps whole modules sequentially: T5 -> GPU briefly for

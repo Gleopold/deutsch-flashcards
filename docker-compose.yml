@@ -1,0 +1,18 @@
+services:
+  app:
+    build: .
+    image: flashcards:latest
+    container_name: flashcards-app
+    restart: unless-stopped
+    volumes:
+      # Reported pictures live here so they survive redeploys.
+      - flashcards-data:/data
+    networks:
+      - connect2_default
+
+volumes:
+  flashcards-data:
+
+networks:
+  connect2_default:
+    external: true
