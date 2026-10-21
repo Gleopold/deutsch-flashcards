@@ -21,6 +21,11 @@ body {
   min-height: 100vh;
 }
 
+/* desktop: show the cards larger (phones keep their 1:1 size) */
+@media (min-width: 521px) {
+  body { zoom: 1.4; }
+}
+
 .wrap {
   max-width: 560px;
   margin: 0 auto;
